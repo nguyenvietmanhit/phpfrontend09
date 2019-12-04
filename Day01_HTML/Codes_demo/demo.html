@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="keyword" content="ABC" />
+		<title>Tiêu đề trang web của tôi</title>
+	</head>
+
+	<body>
+		<!-- Trang HTML đầu tiên của tôi
+
+		<h1>Nội dung thẻ h1</h1> -->
+		<!-- Thẻ h1 - h6 - heading-->
+		<h1>Nội dung thẻ h1</h1>
+		<h2>Nội dung thẻ h2</h2>
+		<h3>Nội dung thẻ h3</h3>
+		<h4>Nội dung thẻ h4</h4>
+		<h5>Nội dung thẻ h5</h5>
+		<h6>Nội dung thẻ h3</h6>
+
+		<!-- Thẻ p - paragraphp -->
+		<p>Nội dung thẻ p1</p>
+		<p>Nội dung thẻ p2</p>
+
+		<!-- Thẻ br - break -->
+		<p>
+			Nội dung thẻ p, <br /> đoạn sau sẽ bị xuống dòng
+		</p>
+
+		<!-- Thẻ hr - horizontal -->
+		<hr />
+
+		<!-- Thẻ i - italic -->
+		<i>Nội dung sẽ bị in nghiêng</i>
+
+		<!-- Thẻ b - Bold -->
+		<b>Nội dung sẽ bị in đậm</b>
+
+		<!-- Thẻ u - underline -->
+		<u>Nội dung sẽ bị gạch chân</u>
+
+		<!-- Thẻ div - division -->
+		<div>Nội dung thẻ div</div>
+		<div>
+			<p>Thẻ p</p>
+			<u>Thẻ u</u>
+			<div>Thẻ div</div>
+		</div>
+
+		<!-- Thẻ span -->
+		<span>Nội dung bên trong thẻ span</span>
+
+		<!-- Thẻ img - image -->
+		<img src="rose.jpeg" alt="Sai đường dẫn ảnh" title="Rê chuột qua sẽ hiển thị" width="100" height="50" />
+
+		<!-- Thẻ liên quan đến bảng -->
+		<table border="1" cellspacing="0" cellpadding="8">
+			<tr>
+				<th>Tiêu đề 1</th>
+				<th>Tiêu đề 2</th>
+				<th>Tiêu đề 3</th>
+			</tr>
+			<tr>
+				<td rowspan="2">Nội dung cột 1 hàng 2</td>
+				<td>Nội dung cột 2 hàng 2</td>
+				<td>Nội dung cột 3 hàng 2</td>
+			</tr>
+			<tr>
+				<td>Nội dung cột 1 hàng 3</td>
+				<td colspan="2">Nội dung cột 2 hàng 3</td>
+				<!-- <td>Nội dung cột 3 hàng 3</td> -->
+			</tr>
+		</table>
+
+		<!-- Thẻ ul - unorder list li, ol - order list  li -->
+		<ul>
+			<li>Thẻ li thứ nhất</li>
+			<li>Thẻ li thứ 2</li>
+		</ul>
+
+		<ol>
+			<li>Thẻ li thứ nhất</li>
+			<li>Thẻ li thứ 2</li>
+		</ol>
+
+		<!-- Thẻ a - link -->
+		<a href="https://google.vn" target="_blank" title="Hover qua thẻ a">
+		Click để tới trang Google trong 1 tab mới
+		</a>
+
+		<!-- Thẻ button -->
+		<button>
+			Đây là nút
+		</button>
+
+		<!-- Thẻ center -->
+		<center>
+			Nội dung bên trong bị căn giữa
+		</center>
+
+		<!-- Các thẻ liên quan đến form -->
+		<form action="" method="get">
+			<input type="text" placeholder="Nhập tên của bạn" name="username" 
+			value="" />
+			<br />
+			<input type="number" value="1234" />
+			<br />
+			<input type="password" placeholder="Nhập password" />
+			<br />
+			<input type="file" />
+			<br />
+			<input type="file" multiple />
+
+			<br />
+			<select>
+				<option>Việt Nam</option>
+				<option>Indonesia</option>
+			</select>
+			<br />
+			<!-- Cần phải set name giống hệt nhau cho các radio
+			để chức năng radio hoạt động chính xác -->
+			<input type="radio" name="gender" /> Nam
+			<input type="radio" name="gender"> Nữ 
+			<input type="radio" name="gender"> Khác
+
+			<br />
+			<input type="checkbox" /> Checkbox 1
+			<input type="checkbox" /> Checkbox 2
+			<input type="checkbox" /> Checkbox 3
+
+			<br />
+			<!-- lưu ý với thẻ textarea thì không được chứa dấu cách trong nội dung của thẻ -->
+			<textarea placeholder="Textarea" rows="5" cols="15"></textarea>
+
+			<input type="submit" value="Gửi thông tin" />
+			<input type="reset" value="Xóa thông tin form" />
+		</form>
+	</body>
+</html>
