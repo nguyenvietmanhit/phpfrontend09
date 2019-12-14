@@ -1,0 +1,23 @@
+		.wrapper {
+    		border: 2px solid #000;
+		}
+
+		.header {
+		    border-bottom: 2px solid #000;
+		}
+
+		.main {
+		    padding: 15px;
+		}
+
+		.main
+
+		.item-left {
+		    height: 30px;
+		    background: #EA9999;
+		}
+
+		.item-right {
+		    background: #9FC5F8;
+		    height: 30px;
+		}

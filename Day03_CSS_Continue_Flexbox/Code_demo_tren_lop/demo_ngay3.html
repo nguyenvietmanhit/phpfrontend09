@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- khi làm việc với responive thì cần khai báo thẻ này
+		để trình duyjet có thể hiểu được giao diện đang được hiển thị trên thiết bị tương ứng -->
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta charset="utf-8" />
+		<title>Demo ngay 3 CSS</title>
+	</head>
+	<style type="text/css">
+		* {
+			margin: 0;
+		}
+		/*body {
+			min-height: 2000px;
+		}
+
+		#div-position-parent {
+			background: red;
+			height: 250px;
+			position: relative;
+		}
+
+		#p-position-child {
+			position: absolute;
+			background: yellow;
+		}*/
+
+		/*h1 {
+			background: blue;
+			position: fixed;
+		}*/
+
+		.col1 {
+			background: #000;
+			color: #fff;
+		}
+
+		.col2 {
+			background: yellow;
+		}
+
+		.col3 {
+			background: blue;
+		}
+
+		.col {
+			height: 80px;
+			float: left;
+			width: 33.33%;
+		}
+
+		#div-after-float {
+			background: pink;
+		}
+
+		/*CSS Display*/
+		h2 {
+			display: inline; inline-block, block, flex
+		}
+
+
+		li {
+		    display: inline-block;
+		    padding: 10px;
+		    background: #666;
+		    margin-right: -4px;
+		    border-right: 1px solid #000;
+		}
+		li:nth-child(3) {
+
+		}
+		li:last-child {
+			border-right: none;
+		}
+
+		/*CSS @Media*/
+		/*Bắt buộc phải khai báo thẻ meta name =viewport*/
+		/*yêu cầu trên các thiết bị mà có width < 768px tương đương với mobile, thì đổi màu nền cho các thẻ li của menu*/
+		/*khi làm responsive, thường chia ra 3 màn hình*/
+		/*
+		PC -> min-width: 1024px
+		Tablet Ipad -> min-width: 768px và max-width: 1023px
+		Mobile -> max-width: 767px
+		*/
+		/*CSS cho Mobile*/
+		@media (max-width: 767px) {
+			li {
+				background: red;
+			}
+		}
+		/*CSS cho Tablet - Ipad*/
+		@media(min-width: 768px) and (max-width: 1023px) {
+
+		}
+		/*CSS cho PC*/
+		@media(min-width: 1024px) {
+
+		}
+
+		/*CSS z-index*/
+		#z-index {
+			position: relative;
+		}
+
+		.index-item {
+			position: absolute;
+			top: 0;
+			left: 0
+		}
+		.item1 {
+			width: 50px;
+			height: 50px;
+			background: red;
+		}
+		.item2 {
+			width: 150px;
+			height: 150px;
+			background: yellow;
+		}
+
+		.item3 {
+			width: 100px;
+			height: 100px;
+			background: blue;
+		}
+
+		/*/*CSS Overflow Opacity */
+		#div-overflow {
+			background: red;
+			width: 30px;
+			overflow: hidden;
+			opacity: 0.5;
+		}
+
+		/*CSS transition*/
+		#a-transition {
+			padding: 15px;
+			transition: all 5s ease;
+		}
+
+		#a-transition:hover {
+			background: red;
+		}
+	</style>
+	<body>
+		<a href="#" id="a-transition">
+			Thẻ a
+		</a>
+
+		<div id="div-overflow">
+			dashjkdashjkdhsa djasdjkd dashdjkashjk dsahdjkasdhasjkd dashjkdashjkdhsa dashjkdashjkdhsa 
+		</div>
+		<div id='z-index'>
+			<div class="index-item item1">
+				Item 1
+			</div>
+			<div class="index-item item2">
+				Item 2
+			</div>
+			<div class="index-item item3">
+				Item 3
+			</div>
+		</div>
+<ul>
+	<li>
+		<a href="#" class="menu-link">Link 1</a>
+	</li>
+	<li>
+		<a href="#" class="menu-link">Link 2</a>
+	</li>
+	<li>
+		<a href="#" class="menu-link">Link 3</a>
+	</li>
+	<li>
+		<a href="#" class="menu-link">Link 4</a>
+	</li>
+</ul>		
+		<a href="#" class="a-display">Link 1</a>
+		<a href="#" class="a-display">Link 1</a>
+
+		<p class="p-display">Thẻ p 1</p>
+		<p class="p-display">Thẻ p 2</p>
+
+		<span>Thẻ span</span> ABCDEF
+		<h2>Thẻ h2</h2> ABCDEF
+
+		<!-- CSS FLOAT -->
+		<!-- đối với khối cha đang bao lấy các phần tử bị float bên trong,
+		thì cần phải thêm thuộc tính css display:flex để đảm bảo các phần tử ngay sau nó không bị ảnh hưởng bởi float
+	-->
+		<div class="row">
+			<div class="col col1">
+				Cột 1
+			</div>
+			<div class="col col2">
+				Cột 2
+			</div>
+			<div class="col col3">
+				Cột 3
+			</div>
+		</div>
+
+		<div id="div-after-float">
+			Thẻ div
+		</div>
+
+		<!-- <h1>
+			Nội dung thẻ h1
+		</h1> -->
+		<!-- CSS Position -->
+		<!-- <div id="div-position-parent">
+			<p id="p-position-child">
+				Nội dung thẻ p
+			</p>
+		</div>
+
+		<h1>
+			Nội dung thẻ h1
+		</h1> -->
+
+		
+	</body>
+</html>
