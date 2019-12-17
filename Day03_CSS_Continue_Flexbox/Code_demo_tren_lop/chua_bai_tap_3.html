@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta charset="utf-8" />
 	<title>Chua bai tap 3</title>
 	<style type="text/css">
@@ -27,7 +28,7 @@
 		}
 
 		.col-md-3 {
-    		float: left;
+    		/*float: left;*/
 		    width: 30%;
 		}
 
@@ -70,6 +71,19 @@
 		<div class="main">
 			<!-- ITEM 1 -->
 			<div class="row">
+				<div class="col-md-3">
+					<!-- với cấu trúc hàng - cột, khi viết nội dung cho cột
+					thì nên sử dụng 1 khối bao lấy nội dung đó, thay vì
+					viết trực tiếp nội dung -->
+					<div class="item-content">
+						<div class="item-left"></div>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="item-content">
+						<div class="item-right"></div>
+					</div>
+				</div>
 				<div class="col-md-3">
 					<!-- với cấu trúc hàng - cột, khi viết nội dung cho cột
 					thì nên sử dụng 1 khối bao lấy nội dung đó, thay vì
