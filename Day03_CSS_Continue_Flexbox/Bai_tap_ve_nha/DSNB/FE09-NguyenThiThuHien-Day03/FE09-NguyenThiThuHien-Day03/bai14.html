@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bai14</title>
+	<style type="text/css">
+		.container{
+			background: #a9d7d1;
+			height: 660px;
+			width: 600px;
+		}
+		.body{
+			background:#ffffff;
+			margin: 10px;
+			padding-top: -5px;
+		}.left{
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center; padding-top: 5px;margin-bottom: 0px;">Survey Form</h1>
+		<div class="body">
+			<table width="85%">
+				<tr>
+					<td colspan="2" style="text-align: center;"><p>Let us know how we can improve freeCodeCamp</p></td>
+				</tr>
+				<tr>
+					<td class="left"><sup>*</sup>Name:</td>
+					<td><input type="text" name="name" placeholder="Enter your name"></td>
+				</tr>
+				<tr>
+					<td class="left"><sup>*</sup>Email:</td>
+					<td><input type="email" name="email" placeholder="Enter your Email"></td>
+				</tr>
+				<tr>
+					<td class="left"><sup>*</sup>Age:</td>
+					<td><input type="number" name="age" placeholder="Age"></td>
+				</tr>
+				<tr>
+					<td class="left">Which option best describes your current role:</td>
+					<td><select name="job">
+						<option >Student</option>
+						<option >Student</option>
+						<option >Student</option>
+						<option >Student</option>
+						<option >Student</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="left">How like is that you would recommend<br/>freeCodeCamp to a friend?</td>
+					<td><input type="radio" name="recommend">Definitely<br/>
+						<input type="radio" name="recommend">Maybe<br/>
+						<input type="radio" name="recommend">Not sure
+					</td>
+				</tr>
+				<tr>
+					<td class="left">What do you like most in FCC:</td>
+					<td><select name="option">
+						<option >Select an option</option>
+						<option >ddd</option>
+						<option >dddd</option>
+						<option >ddddd</option>
+						<option >dddddd</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="left">Things that should be improved in the future<br/>(Check all that apply)</td>
+					<td>
+						<input type="checkbox" name="check">Front-end Projects<br/>
+						<input type="checkbox" name="check">Back-end Projects<br/>
+						<input type="checkbox" name="check">Data visualization<br/>
+						<input type="checkbox" name="check">Challengers<br/>
+						<input type="checkbox" name="check">Open Source Community<br/>
+						<input type="checkbox" name="check">Gitter help roams<br/>
+						<input type="checkbox" name="check">Videos<br/>
+						<input type="checkbox" name="check">City meetups<br/>
+						<input type="checkbox" name="check">Wiki<br/>
+						<input type="checkbox" name="check">Forum<br/>
+						<input type="checkbox" name="check">Additional Courses<br/>
+					</td>
+				</tr>
+				<tr>
+					<td class="left">Any comments or Suggestion?</td>
+					<td><textarea name="comment" cols="25" rows="5" placeholder="Enter your comment here...."></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="padding-left: 250px;" ><input type="submit" name="submit" value="Submit" style="color: white;background: #57abe0;border-radius: 7px;"></td>
+					
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

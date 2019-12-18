@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 4</title>
+	<style type="text/css">
+		.s-p{
+			border: 5px solid black;
+			width: 700px;
+			margin: auto;
+			display: grid;
+			grid-gap: 15px;
+			padding: 20px 20px;
+			grid-template-columns: repeat(6, 1fr);	
+		}
+		.s-c-1{
+			border: 5px solid black;
+			height: 60px;
+			grid-column: 1/-1;
+			text-align: center;
+		}
+		.s-c-2{
+			border: 5px solid black;
+			height: 120px;
+			grid-column: 1;
+			text-align: center;
+		}
+		.s-c-3{
+			border: 5px solid black;
+			height: 120px;
+			grid-column: 2/-1;
+			text-align: center;
+		}
+		.s-sp{
+			font-weight: bold;
+			font-size: 20px;
+		}
+		.s-c-2 .s-sp{
+			margin: 45px 0px;
+		}
+		.s-c-3 .s-sp{
+			margin: 45px 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="s-p">
+		<div class="s-c-1"><p class="s-sp">HEADER</p></div>
+		<div class="s-c-2"><p class="s-sp">SIDEBAR</p></div>
+		<div class="s-c-3"><p class="s-sp">CONTENT</p></div>
+		<div class="s-c-1"><p class="s-sp">FOOTER</p></div>
+	</div>
+</body>
+</html>

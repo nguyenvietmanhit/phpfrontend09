@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- khi làm việc với responive thì cần khái váo thẻ này để trình duyệt có thể hiểu được giao diện có width <768 tương đương với mobile , thì đổi màu nền cho thẻ li của men -->
+		<!-- thi làm responsive thường chia ra 3 màn hình 
+		div-position-child
+		pc ->min- wiht 1024;
+		tablet ipad -> 768 -1023 -->
+
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		/**{
+			margin: 0;	
+		}
+		body {
+			min-width: 2000px;
+
+		}
+		#div-position-parrent{
+			background: red;
+			height: 150px;
+			position: relative;
+		}
+		h1{
+			background: green;
+			position: fixed;
+		}
+		#div-position-child{
+			position: absolute;
+			background: yellow;
+		}
+		.col1{
+
+			background: #ffff;
+			color: #000;
+			height: 80px;
+			float: left;
+
+		}
+		.col2{
+			background: yellow;
+			height: 80px;
+			float: left;
+		}
+		.col3{
+			height: 80px;
+			background: blue;
+			float: left;
+
+		}
+		.col{
+			height: 80px;
+			float: left;
+			width: 33.33%;
+			
+		}
+		.div-after-float{
+			background: pink;
+
+		}*/
+		/*css display*/
+		h1
+		{
+			display: inline;
+			background: red;
+		}
+		li{
+			display: inline-block;
+			padding: 10px
+			background:#666;
+			margin-right: -4px;
+			border-right: 1px solid #000;
+
+		}
+		/*yêu cầu trên các thiết  mà có width <768 tưng đương với mobile , thò đổi màu nền cho các thẻ li của manu*/
+		@media(max-width: 767px){
+			li{
+				background: red;
+			}
+		}
+		@media(min-width: 678px) and(max-width: 1023px){
+
+		}
+		@media(min-width: 1024px){
+
+		}
+		.index-item{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.item1{
+			width: 200px;
+			height: 200px;
+			background:red;
+		}
+		/*.item2{
+			width:150px;
+			height: 150px;
+			background:yellow;
+		}*/
+		/*.item3{
+			width: 100px;
+			height: 100px;
+			background:blue;
+		}*/
+		/*css overflow*/
+		#div-overflow{
+			background:red;
+			width: 30px;
+		}
+		#a-transition{
+			padding: 15px;
+			transition: all 3s ease;
+
+
+		}
+		#a-transition: hover{
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<a href="#" id="a-transition"> 
+		the a 
+	</a>
+	<div id="div-overflow">
+		adsđsdasdadssaddsdas dsadasds dsdsdsadsasdadsd sadsadsasadsadasdasdasdasd dsadsadasdasdsa dasdsadasdsad
+	</div>
+	<div id='z-index'>
+		<div class="index- item item1">
+			item1
+		</div>
+		<div class="index-item item2">
+			item2
+		</div>
+		<div class="index-item item3">
+			item3
+		</div>
+	</div>
+	<ul>
+		<li>
+			<a href="#" class="menu-link"> link1</a>
+			
+		</li>
+		<li>
+			<a href="#" class="menu-link"> link2</a>
+
+		</li>
+			<li>			
+				<a href="#" class="menu-link"> link3</a>
+			</li>
+			<li>
+				<a href="#" class="menu-link"> link45</a>
+			
+			</li>
+			<li><a href="#" class="menu-link"> link5</a></li>
+			
+
+	</ul>
+	<a href="#" class="a-display">link 1</a>
+	<a href="#" class="a-display">link 1</a>
+	<p class="p-display">the p2</p>
+	<p class="p-display">the p 1</p>
+
+	<span>ther span</span> abcvfd
+	<h1>ther h1</h1>	abcdf
+	<!-- đối với các khối cha mà đang bao với các phần tử bị float bên trong 
+	thì cần phản thêm thuộc tính css display :flex để đảm bảo các phần tử ngay sau nó không bị ảnh -->
+	<!-- hưởng bởi float -->
+	<div class="div-after-float"> the div</div>
+		<div class="row">
+			<div class=" col col1">
+				cot 1
+			</div>
+			<div class=" col col2">
+				cot 2
+			</div>
+			<div class=" col col3">
+				cot 3
+			</div>
+		</div>
+ <h1> 
+			noi dung the h1
+		</h1> -->
+		<!-- css position -->
+		<div id="div-position-parrent">
+			<p id="div-position-child">
+				noi dung cua the p
+			</p>
+		</div>
+		<h1> 
+			noi dung the h1
+		</h1>
+	
+	
+</body>
+</html>

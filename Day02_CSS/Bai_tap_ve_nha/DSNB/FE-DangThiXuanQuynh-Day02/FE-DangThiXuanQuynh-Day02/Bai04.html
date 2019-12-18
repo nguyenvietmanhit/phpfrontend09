@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 04-CSS</title>
+    <style type="text/css">
+        .container{
+            border:3px solid black;
+            padding:20px;
+        }
+        .header, .footer, .content .sidebar, .content .main{
+            line-height:100px;
+            text-align:center;
+            border:3px solid black;
+            font-weight:bold;
+            font-size:25px;
+        }
+        .content{margin:20px 0;}
+        .row::after{
+            content:"";
+            clear:both;
+            display:table;
+        }
+        .col-7{
+            width:70%;
+            float:left;
+        }
+        .col-3{
+            width:30%;
+            float:left;
+        }
+        .sidebar{margin-right:20px;}
+        .content .sidebar,.content .main{
+            line-height:200px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">HEADER</div>
+    <div class="content">
+        <div class="row">
+            <div class="col-3">
+                <div class="sidebar">SIDEBAR</div>
+            </div>
+            <div class="col-7">
+                <div class="main">CONTENT</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">FOOTER</div>
+</div>
+
+</body>
+</html>

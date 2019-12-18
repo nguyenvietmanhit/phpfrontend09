@@ -1,0 +1,45 @@
+.content{
+    font-family: arial;
+    color: #414441;
+    width: 800px;
+    height: 1000px;
+    background-color: #a9d7d1;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+form{
+    font-family: arial;
+    background-color: #ffffff;
+    margin: 10px 20px 15px 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+td{
+    line-height: 35px;
+    width: 350px;
+    vertical-align: top;
+}
+tr td:first-child{
+    padding-right: 10px;
+    padding-left: 35px;
+    text-align: right;
+}
+p{
+    text-align: center;
+}
+pre{
+    text-align: center;
+}
+.sub{
+    background-color: #59ace0;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+}
+select{
+    font-weight: bold;
+}

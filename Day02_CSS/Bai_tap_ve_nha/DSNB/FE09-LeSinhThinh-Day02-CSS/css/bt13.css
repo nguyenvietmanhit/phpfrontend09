@@ -1,0 +1,23 @@
+table{
+    width: 500px;
+    height: auto;
+    font-family: arial;
+}
+.hang3cot2, .hang3cot3{
+    color: #6aa5d9;
+    font-weight: bold;
+}
+td, th{
+    padding: 5px;
+}
+.cot11{
+    color: #1f508e;
+    font-weight: bold;
+}
+.cot12{
+    color: #5793d3;
+    font-weight: bold;
+}
+.hang3, .hang5, .hang7{
+    background-color: #eaeaea;
+}

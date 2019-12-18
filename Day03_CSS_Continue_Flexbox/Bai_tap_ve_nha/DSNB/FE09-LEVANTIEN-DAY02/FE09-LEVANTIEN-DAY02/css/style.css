@@ -1,0 +1,22 @@
+#div-border{
+	border-width: 1px;
+   border-style: solid;
+   width: 400px;
+   height: 371px; 
+   background: #EEFFFF;
+}
+#div-border>li{
+	color: red
+}
+#div-position{
+width: 397px;
+height: 59px;
+background: #EEFFFF;
+position: relative;
+top: 13.5px;
+color: red;
+}
+b{
+	color: red;
+	font-size: xx-large;
+}

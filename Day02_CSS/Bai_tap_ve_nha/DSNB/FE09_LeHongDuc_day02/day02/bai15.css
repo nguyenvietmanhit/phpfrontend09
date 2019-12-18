@@ -1,0 +1,19 @@
+*{
+	
+}
+
+.canchinh {padding-top: 22px;padding-left: 21px;}
+
+
+
+
+.dad{
+    color: white;
+    background: #178caf;
+    width: 300px;
+    height: 100px;
+    font-size: 41px;
+    font-weight: bold;
+    border-radius: 16px;
+    position: relative;
+}

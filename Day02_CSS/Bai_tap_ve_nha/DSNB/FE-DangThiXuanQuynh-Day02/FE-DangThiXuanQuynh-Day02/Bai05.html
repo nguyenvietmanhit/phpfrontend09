@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 05-CSS</title>
+    <style type="text/css">
+        .logo, h1{float:left;}
+        h1{color:red;}
+        .header::after{
+            content:"";
+            clear:both;
+            display:table;
+        }
+        table{width:100%}
+    </style>
+</head>
+<body>
+<div class="header">
+    <img src="images/bt5.png" alt="" class="logo">
+    <h1>Employee Registration Form</h1>
+</div>
+<form action="">
+    <table >
+        <tr>
+            <td style="width:15%"></td>
+            <td style="width:85%">
+                <input type="radio" name="gender">Mr
+                <input type="radio" name="gender">Mrs
+                <input type="radio" name="gender">Ms
+            </td>
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="fname" placeholder="FirstName"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="lname" placeholder="LastName"></td>
+        </tr>
+        <tr>
+            <td>Mail Address1</td>
+            <td><input type="text" name="address"></td>
+        </tr>
+        <tr>
+            <td>Mail Address2</td>
+            <td><input type="text" name="address"></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><input type="text" name="city"></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>
+                <select name="state" id="">
+                    <option value="">Guiarat</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Zip</td>
+            <td><input type="text" name="text"></td>
+        </tr>
+        <tr>
+            <td>Upload photo</td>
+            <td>
+                <input type="file" name="file" value="Choose File">
+            </td>
+        </tr>
+        <tr>
+            <td>E-Mail</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td><input type="tel" name="urltel" placeholder="+91" ></td>
+        </tr>
+        <tr>
+            <td rowspan="4">Languages Known</td>
+           <td> <input type="checkbox" checked>Gujarati</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" checked>Hindi</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" checked>English</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" >Marathi</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Additional Information</td>
+            <td><textarea name="" id="" cols="30" rows="10" placeholder="Optional"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

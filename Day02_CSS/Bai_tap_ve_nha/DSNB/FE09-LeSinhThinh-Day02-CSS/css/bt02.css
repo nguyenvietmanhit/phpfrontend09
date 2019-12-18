@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#content-page {
+    background-color: #008001;
+    width: 550px;
+    height: 320px;
+    margin: auto;
+    padding-top: 18px;
+    margin-top: 100px;
+}
+#content-page h1 {
+    padding-bottom: 18px;
+}
+#content-page .for {
+    padding-bottom: 18px;
+}
+#content-page #id_list {
+    background-color: #fe0000;
+    width: 500px;
+    height: 90px;
+    margin: auto;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+}

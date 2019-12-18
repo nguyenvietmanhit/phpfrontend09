@@ -1,0 +1,11 @@
+h1.text {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+p.text {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}

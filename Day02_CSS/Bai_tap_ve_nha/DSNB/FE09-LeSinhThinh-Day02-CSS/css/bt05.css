@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 12px auto;
+}
+#page-registration {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+#page-registration h1 {
+    color: red;
+    position: relative;
+    bottom: 39px;
+    left: 59px;
+
+}

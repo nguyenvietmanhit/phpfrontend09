@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 13</title>
+</head>
+<body>
+	<style type="text/css">
+		*{margin: 0px;
+			padding: 0px;}
+		#bai14{width: 700px;
+			height: 500px;
+			background: #a9d7d1;
+			position:relative;}
+		#divcon
+		{        background: #ffffff;
+    position: absolute;
+    height: 450px;
+    width: 656px;
+    margin: 10px 32px 0px 23px;
+		}
+	table,tr,td{text-align: left ;padding: 5px;
+		
+		text-align: left;
+		}
+		span{margin: 300px;
+		font-size: 110%;}
+		p{text-align: center;}
+	#sub
+	{
+		text-align: center;}
+	#sub1{background: blue;
+		color: #FFFFFF;
+		border-radius: 7px;}
+	</style>
+	<div id="bai14">
+		<span><b>Survey Form</b></span>
+		<div id="divcon">
+			<p>Let us now how can improve freeCodeCamp</p>
+			<table>
+				<form action="#">
+					<tr>
+						<td>*Name:</td>
+						<td><input type="text" name="Name" id="Name" placeholder="Enter your name"></td>
+					</tr>
+					<tr>
+						<td>*Email:</td>
+						<td><input type="password" name="email" id="email" placeholder="Enter your email"></td>
+					</tr>
+					<tr>
+						<td>*Age:</td>
+						<td><input type="number" name="age" id="age" placeholder="Age"></td>
+					</tr>
+					<tr>
+						<td>Which option best describes your current role</td>
+						<td><select size="1">
+							<option value="student"> Student</option>
+							<option value="teacher">Teacher</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>How likely is that you would recommend freeCodeCamp to a friend?</td>
+						<td><input type="checkbox" name="a" value="check">Definitely <br>
+						<input type="checkbox" name="c" value="check">maybe <br>
+						<input type="checkbox" name="b" value="check">Not sure <br></td>
+					</tr>
+					<tr>
+						<td>What do you like mos in FCC</td>
+						<td><select size="1">
+							<option value=""> Select an option</option>
+							<option value="ab">Teacher</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>Things that should be improved in the future</td>
+						<td><input type="checkbox" name="FE" value="web">Font-end project <br>
+						<input type="checkbox" name="BE" value="web">Back-en project <br>
+						<input type="checkbox" name="data" value="web">Data visualization <br></td>
+					</tr>
+					<tr>
+						<td>Any comments or Suggestion?</td>
+						<td><textarea cols="20" rows="5" placeholder="Enter your comment here"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2" id="sub"><input type="submit" value="Submit" id="sub1"></td>
+					</tr>
+
+				</form>
+			
+			</table>
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.menu ul{
+		background: red;
+		list-style-type: none;
+		text-align: center;
+	}
+	.menu li{
+		color: blue;
+		display: inline-block;
+		width: 100px;
+		height: 30px;
+		margin-left: -5px;
+		line-height: 30px; 
+
+	}
+	.menu a{
+		text-decoration: none;
+		color: white;
+		display: block;
+	}
+	.menu a:hover
+	{
+		background: black;
+		color: red;
+	}
+	.menu2 {
+		display: none;
+	}
+	.menu li{
+		position: relative;
+	}
+	.menu li:hover .menu2
+	{
+		display: block;
+		position: absolute;
+	}
+	.menu2 li{
+		margin-left: 0;
+	}
+</style>
+<body>
+	<table>
+		<tr>
+			<td colspan="2"> HTML5</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="menu">
+				<ul>
+					<li><a href="#" > Link 1</a>
+						<ul class="menu2">
+						<li><a href="#">Link 6</a></li>
+						<li><a href="#">Link 7</a></li>
+					</ul></li>
+					<li><a href="#"> Link 2</a></li>
+					<li><a href="#"> Link 3</a></li>
+					<li><a href="#"> Link 4</a></li>
+					<li> <a href="#">Link 5</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<table>
+				<tr>
+					<td><img src=" "/></td>
+					<td>
+						<h3>This iss Lorem Ipsum Heading</h3>
+					</td>
+				</tr>
+			</table>
+		</tr>
+	</table>
+</body>
+</html>

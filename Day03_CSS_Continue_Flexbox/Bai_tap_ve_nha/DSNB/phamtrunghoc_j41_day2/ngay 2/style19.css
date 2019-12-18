@@ -1,0 +1,27 @@
+.html{
+	font-size: 30px;
+	color: #fff;
+}
+.header-5 {
+color: orange;
+font-size: 50px;
+}
+#menu{
+	background: gray;
+	height: 50px;
+}
+.li{
+	display: inline;
+	text-decoration: none;
+	color: black;
+	margin-right: 25px;
+	color: #fff;
+	height: 40px;
+border-right: 1px solid black;
+}
+#banner{
+	background: black;
+}
+.left-content{
+	display: inline-block;
+}

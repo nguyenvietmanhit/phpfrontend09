@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai19 -CSS</title>
+    <style type="text/css">
+        body{font-family: "Times New Roman";
+        margin:0;}
+        *{box-sizing: border-box}
+        .header{
+
+            width:100%;
+            background:#333;
+        }
+
+        .logo {
+            padding:25px 20px;
+            font-size:40px;
+            color:white;
+            font-weight:bold;
+            margin:0;
+        }
+        .logo sub{
+            color:#f48520;
+            font-size:60px;
+            font-family: Arial;
+        }
+        .menu{
+            background:#666;
+            width:100%;
+            overflow:hidden;
+        }
+        ul{
+            margin:0;
+            padding:0;
+        }
+        .menu li{
+            list-style:none;
+            float:left;
+            padding:12px 16px;
+            border-right:1px solid #444;
+        }
+        .menu a{
+            text-decoration:none;
+            color:white;
+        }
+        /*.content{padding-bottom:50px;}*/
+        .col-7{
+            width:70%;
+            float:left;
+        }
+        .col-3{
+            width:30%;
+            float:left;
+        }
+        .col-2{
+            width:20%;
+            float:left;
+        }
+        .col-8{
+            width:80%;
+            float:left;
+        }
+        .main{
+            width:100%;
+            padding:20px;
+        }
+        .main-content{
+            padding:20px 10px;
+        }
+        .fakeimg{
+            width:100%;
+            height:150px;
+            background:#ddd;
+        }
+        .main a{
+            text-decoration:none;
+            color:orangered;
+            font-weight:bold;
+        }
+        .main-right {
+            padding:0 20px 20px;
+        }
+        .main-right h3{margin:0}
+        .sidebar{
+            background:#e5e5e5;
+            padding:20px;
+            height:900px;
+        }
+        .sidebar li{
+            list-style: none;
+            display:block;
+            padding:10px;
+        }
+        .sidebar a{
+            color:orangered;
+            text-decoration: none;
+        }
+        .menu::after, .row::after{
+            content:"";
+            clear:both;
+            display:table;
+        }
+        .footer{
+            width:100%;
+            background:#333;
+            padding:15px;
+        }
+        .footer p{
+            color:white;
+            text-align: center;
+        }
+        .footer span{color:orangered}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <p class="logo">HTML<sub>5</sub></p>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+       <div class="row">
+           <div class="col-7">
+               <div class="main">
+                   <div class="main-content">
+                       <div class="row">
+                           <div class="col-2">
+                               <div class="fakeimg"></div>
+                           </div>
+                           <div class="col-8">
+                               <div class="main-right">
+                                   <h3>This is a Lorem Ipsum Heading</h3>
+                                   <p>Sed non mauris vitae erat conseLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                       sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                   <a href="#">Read More</a>
+                               </div>
+                           </div>
+                       </div>
+                       <hr>
+                   </div>
+                   <div class="main-content">
+                       <div class="row">
+                           <div class="col-2">
+                               <div class="fakeimg"></div>
+                           </div>
+                           <div class="col-8">
+                               <div class="main-right">
+                                   <h3>This is a Lorem Ipsum Heading</h3>
+                                   <p>Sed non mauris vitae erat conseLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                       sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                   <a href="#">Read More</a>
+                               </div>
+                           </div>
+                       </div>
+                       <hr>
+                   </div>
+                   <div class="main-content">
+                       <div class="row">
+                           <div class="col-2">
+                               <div class="fakeimg"></div>
+                           </div>
+                           <div class="col-8">
+                               <div class="main-right">
+                                   <h3>This is a Lorem Ipsum Heading</h3>
+                                   <p>Sed non mauris vitae erat conseLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                       sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                   <a href="#">Read More</a>
+                               </div>
+                           </div>
+                       </div>
+                       <hr>
+                   </div>
+               </div>
+           </div>
+           <div class="col-3">
+               <div class="sidebar">
+                   <h3>Sidbar Links</h3>
+                   <hr>
+                   <ul>
+                       <li><a href="#">Link 1</a></li>
+                       <li><a href="#">Link 2</a></li>
+                       <li><a href="#">Link 3</a></li>
+                       <li><a href="#">Link 4</a></li>
+                   </ul>
+                   <h3>Other Widgets</h3>
+                   <hr>
+                   <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                   </p>
+               </div>
+           </div>
+       </div>
+    </div>
+    <div class="footer">
+        <p>copyright <span>YourSite</span>. All rights reserved</p>
+    </div>
+</div>
+
+</body>
+</html>

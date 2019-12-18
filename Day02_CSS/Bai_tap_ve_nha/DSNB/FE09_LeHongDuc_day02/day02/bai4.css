@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.footer {
+    border: 3px solid;
+    margin: 10px;
+    text-align: center;
+    height: 70px;
+    position: relative;
+}
+.conten {
+    border: 3px solid;
+    margin: 10px;
+    text-align: center;
+    height: 150px;
+    width: 988px;
+    position: relative;
+}
+.sidebar {
+    border: 3px solid;
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    width: 250px;
+    position: relative;
+}
+.header {
+    height: 70px;
+    margin: 10px;
+    border: 3px solid;
+    text-align: center;
+    position: relative;
+}
+.divall {
+    border: 5px solid;
+}
+.bao {
+    display: flex;
+}
+.canchinh{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: bold;
+}

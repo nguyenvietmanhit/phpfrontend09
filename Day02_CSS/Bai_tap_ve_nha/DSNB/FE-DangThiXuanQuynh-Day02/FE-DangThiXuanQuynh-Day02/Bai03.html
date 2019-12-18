@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 03-CSS</title>
+    <style type="text/css">
+       .container {
+           border:1px solid black;
+           padding:20px;
+       }
+       .header,.content{
+           border:2px solid black;
+       }
+       .content{
+           overflow:hidden;
+           border-top: none;
+           padding: 10px;
+       }
+        .content .col-3{
+            width:30%;
+            float:left;
+        }
+        .content .col-7{
+            width:70%;
+            float:left;
+        }
+        .text-3, .text-7 ,.footer{
+            height:100px;
+            border:2px solid black;
+            margin:10px;
+
+        }
+        .text-3{ background:#ea9999;}
+        .text-7{ background:#9fc5f8;}
+        .content .row::after{
+            content:"";
+            display:table;
+            clear: both;
+        }
+        .content .footer{background:#ffe599;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">Mock 1</div>
+    <div class="content">
+        <div class="row">
+            <div class="col-3">
+                <div class="text-3"></div>
+            </div>
+            <div class="col-7">
+                <div class="text-7"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="text-3"></div>
+            </div>
+            <div class="col-7">
+                <div class="text-7"></div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</div>
+
+</body>
+</html>

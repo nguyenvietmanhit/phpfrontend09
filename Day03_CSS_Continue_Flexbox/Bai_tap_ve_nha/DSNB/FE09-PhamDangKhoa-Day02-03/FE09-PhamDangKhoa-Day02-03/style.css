@@ -1,0 +1,51 @@
+.table {
+    margin: auto;
+    width: 528px;
+    height: 360px;
+    border-style: solid;
+}
+.content {
+    border-bottom: 2px solid black;
+}
+.left {
+    float: left;
+    margin-top: 15px;
+    width: 151px;
+    height: 230px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.left ul li {
+    width: 127px;
+    height: 60px;
+    background-color: #ea9999;
+    border-style: solid;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.right {
+    float: right;
+    margin-top: 15px;   
+    width: 348px;
+    height: 230px;
+}
+.right ul li {
+    width: 325px;
+    height: 60px;
+    background-color: #9fc5f8;
+    border-style: solid;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.footer {
+    margin-top: 10px;   
+    width: 486px;
+    height: 60px;
+    background-color: #ffe599;
+    border-style: solid;
+    margin-left: 20px;
+}

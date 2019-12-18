@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 19</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		.header{
+			background: #333333;
+			padding: 15px;
+		}
+		.menu-top{
+			background: #666666;
+			padding: 12px;
+		}
+
+		.menu-top a{
+			text-decoration: none;
+			color: #fff;
+			padding: 12px;
+			border-right: 1px solid black;
+		}
+		.content{
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+			grid-template-rows: repeat(3,1fr);
+		}
+		.content-left{
+			grid-column: 1/ span 2;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			margin-right: 30px;
+			margin-left: 30px;
+			border-bottom: 1px solid black;
+			width: 90%;
+		}
+		
+		.content-left-1{
+			padding-left: 20px;
+		}
+
+		.content-left-1 .content-left-title{
+			font-size: 32px;
+			font-weight: bold;
+			margin-top: -35px;
+		}
+
+		.content-left-main{
+			padding-top: 15px;
+			padding-bottom: 30px;
+			font-size: 17px;
+		}
+
+		a.content-left-link{
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+			color: #f68a30;
+		}
+		.content-right{
+			grid-column: 3 / -1;
+			grid-row: 1/ span 3;
+			background: #e5e5e5;
+		}
+
+		.content-right-title{
+			font-weight: bold;
+			font-size: 26px;
+			border-bottom: 1px solid black;
+			margin: 30px;
+		}
+
+		.content-right-link ul li{
+			list-style-type: none;
+			padding-left: 35px;
+			padding-bottom: 10px;
+		}
+
+		.content-right-link ul li a{
+			text-decoration: none;
+			color: #f68a30;
+		}
+
+		.content-right-p{
+			padding-left: 30px;
+			padding-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="fluid-container">
+		<div class="header">
+			<img src="19.jpg" alt="HTML5">
+		</div>
+		<div class="main">
+			<div class="menu-top">
+				<a href="">Link 1</a>
+				<a href="">Link 2</a>
+				<a href="">Link 3</a>
+				<a href="">Link 4</a>
+				<a href="">Link 5</a>
+			</div>
+			<div class="content">
+				<div class="content-left">
+					<table>
+						<tr>
+							<td>
+								<img src="2.jpg" alt="">
+							</td>
+							<td class="content-left-1">
+								<p class="content-left-title">This is a Lorem Ipsum Heading</p>
+								<p class="content-left-main">Sed non mauris vitea erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia, per inceptos himenaeos. Mauris in erat justo.</p>
+								<a href="" class="content-left-link">Read More</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="content-right">
+					<p class="content-right-title">
+						Sidbar Links
+					</p>
+					<div class="content-right-link">
+						<ul>
+							<li><a href="">Link 1</a></li>
+							<li><a href="">Link 2</a></li>
+							<li><a href="">Link 3</a></li>
+							<li><a href="">Link 4</a></li>
+						</ul>
+					</div>
+					<p class="content-right-title">
+						Other Widgets
+					</p>
+					<p class="content-right-p">
+						This is Photoshop's version of Lorem Ipsum. Priun gravida ribh vel elit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit
+					</p>
+					<p class="content-right-p">
+						Duis sed odio sit amet nibh vulputate cursus a sit amet mauris
+					</p>
+				</div>
+				<div class="content-left">
+					<table>
+						<tr>
+							<td>
+								<img src="2.jpg" alt="">
+							</td>
+							<td class="content-left-1">
+								<p class="content-left-title">This is a Lorem Ipsum Heading</p>
+								<p class="content-left-main">Sed non mauris vitea erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia, per inceptos himenaeos. Mauris in erat justo.</p>
+								<a href="" class="content-left-link">Read More</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="content-left">
+					<table>
+						<tr>
+							<td>
+								<img src="2.jpg" alt="">
+							</td>
+							<td class="content-left-1">
+								<p class="content-left-title">This is a Lorem Ipsum Heading</p>
+								<p class="content-left-main">Sed non mauris vitea erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia, per inceptos himenaeos. Mauris in erat justo.</p>
+								<a href="" class="content-left-link">Read More</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="footer" style="color: #fff; background: #333333; padding: 20px;text-align: center;">
+			<p>Copyright <a href="" style="color: #f68a30; text-decoration: none;">YourSite</a>. All rights reserved.</p>
+		</div>
+	</div>
+</body>
+</html>

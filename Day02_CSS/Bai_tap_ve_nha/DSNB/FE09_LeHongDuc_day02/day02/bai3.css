@@ -1,0 +1,32 @@
+*{
+			margin: 0;
+			padding: 0;
+}
+		.divall{
+			border: 3px solid;
+		}
+		.divcontent{
+			border: 3px solid;
+		}
+		.divcontentnho{
+			background: #e0657b;
+		    width: 330px;
+		    height: 50px;
+		    margin: 10px;
+		}
+		
+		
+		.divcontentnho2{
+			background: #5c5c86;
+    height: 50px;
+    width: 936px;
+    margin: 10px;
+		}
+		.divcontentnho3{
+			background: #bdbd4e;
+			height: 50px;
+			margin: 10px;
+		}
+		.chiadong{
+			display: flex;
+		}

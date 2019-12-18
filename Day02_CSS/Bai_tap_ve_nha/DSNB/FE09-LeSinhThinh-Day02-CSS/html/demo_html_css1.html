@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <style type="text/css">
+      a {
+        color: red;
+      }
+      /* Selector in css  */
+      /* 1.Selector with html */
+      p {
+        color: yellow;
+      }
+      /* 2.Selector with class or id */
+      #p-id {
+          background-color: red;
+      }
+      .p-class {
+          background-color: green;
+      }
+      .class2 {
+          color: pink;
+      }
+      /* 3. Selector nhieu cap */
+      /* #div-id a {
+          font-size: 30px;
+      } */
+      /* Day danh cho thuoc tinh con */
+      #div-id > a {
+        font-size: 30px;
+      }
+      #div-id > .div-class > a {
+          font-size: 40px;
+      }
+      /* 4. Selector theo thuoc tinh cua the HTML */
+      input[type=password] {
+          background-color: red;
+      }
+      /* Doi mau cho the a dang co href la abc.com sang mau do  */
+      a[href="abc.com"]{
+          color: red;
+      }
+      /* 5 - Selector theo trang thai phan tu HTML */
+      #p-hover:hover {
+          color: red;
+      }
+      #div-child p:first-child {
+          color:blue;
+      }
+      #div-child p:last-child {
+          color: orange;
+      }
+      #div-child p:nth-child(3) {
+          color: mediumturquoise;
+      }
+      #a-before-after::before{
+          content: 'Noi dung chen vao truoc the a';
+          /* display: block; */
+
+      }
+      #a-before-after::after{
+          content: 'Noi dung chen vao sau the a';
+      }
+    </style>
+     <!--  Nhung css qua 1 file ngoai  -->
+    <link rel="stylesheet" href="../css/css1.css">
+  </head>
+  <body>
+      <h1 id="h1-id">
+          The h1 su dung css tu file css1.css
+      </h1>
+      <!-- Nhung truc tiep trong the HTML -->
+      <p style="color:red">
+        The p su dung inline css
+    </p>
+      <a href="#" id="a-before-after">
+          The a su dung css lien quan den before after
+      </a>
+      <!-- Theme -->
+      <div id="div-child">
+          <p >The p thu nhat</p>
+          <p>The p thu 2</p>
+          <p>The p thu 3</p>
+          <p>The p thu 4</p>
+          <p>The p thu 5</p>
+      </div>
+      <p id="p-hover">
+          The p voi selector theo trang thai hover
+      </p>
+      <a href="abc.com">
+          The a co href la la abc.com
+      </a>
+      <form action="#" method="get">
+            <input type="radio" name="gender" id=" " />Nam
+            <br />
+            Nhap ten: <input type="text" name="name" id=" " />
+            <br />
+            Nhap password: <input type="password" name="password" id="">
+      </form>
+      <div id="div-id">
+          <a href="#" title="Title a">
+              The a trong the div dang co id la div-id
+          </a>
+          <div class="div-class">
+              <a href="#" title="">
+                    The a trong the div dang co id la div-class
+              </a>
+          </div>
+      </div>
+      <span class="class1 class2 class3">
+          The span voi cu phap khai bao nhieu class
+      </span>
+      <br />
+      <span id="span-id" class="span-class">
+          The span su dung ca thuoc tinh id va class
+      </span>
+    <p id="p-id">
+      The p voi id la p-id
+    </p>
+    <p class="p-class">
+      The p voi class la p-class
+    </p>
+    <span class="p-class">
+        Noi dung span voi class la p-class
+        </span>
+    <p>
+      Noi dung trong the p
+    </p>
+    <p>
+      Noi dung trong the p2
+    </p>
+    <a href="#Link_Web" target="_blank">
+      Noi dung cua the a
+    </a>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+*{
+
+}
+.con {
+    position: absolute;
+    /* top: 29px; */
+    left: 41px;
+}
+
+p.dad {
+    position: relative;
+    /* display: flex; */
+    font-style: italic;
+}
+
+li {
+    color: blue;
+}
+
+body {
+    background: #a9a907;
+    color: #891dad;
+}

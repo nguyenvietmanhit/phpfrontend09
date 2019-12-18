@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#div-id{
+	  
+    border: solid;
+    margin-left: 300px;
+    margin-right: 600px;
+    position: absolute;
+	width: 350px;
+}
+#header-id{
+	text-align: left;
+    border-bottom: solid 2px black;
+}
+#body-id{
+	     float: left;
+    padding: 30px;
+    border: solid 2px;
+   margin: 8px 10px 15px 15px;
+    width: 10%;
+    background-color: #EA9999;
+	}
+#body1-id{
+	float: left;
+    padding: 30px;
+    border: solid 2px;
+    margin: 8px 10px 15px 15px;
+    width: 39%;
+	 background-color: #9FC5F8;
+	}
+	
+#footer-id{ float: left;
+       padding: 14px 14px 43px 14px;
+    border: solid 2px;
+    margin: -7px 10px 10px 15px;
+    width: 84%;
+    background-color: #FFE599;}

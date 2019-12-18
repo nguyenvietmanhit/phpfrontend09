@@ -1,0 +1,40 @@
+.content-div{
+    background-color: #5F9EA0;
+    width: 540px; 
+    height: 520px;
+    padding-left:15px;
+}
+.font{
+font-size: 30px;
+font-weight:bold;
+padding-top: 10px;
+}
+.font1{
+font-size: 20px;
+font-weight: bold;
+color:#800080;
+padding-left: 20px;
+
+}
+.padiing{
+text-align:center;
+padding-left: 30px;
+color:#800080;
+margin-top: 10px;
+}
+.padiing1{
+text-align:center;
+padding-left: 30px;
+color:blue;
+}
+.font3{
+font-size: 20px;
+font-weight: bold;
+color:blue;
+padding-left: 20px;
+}
+.border-p {
+border-width: 5px;
+border-style: dashed;
+padding:auto;
+}

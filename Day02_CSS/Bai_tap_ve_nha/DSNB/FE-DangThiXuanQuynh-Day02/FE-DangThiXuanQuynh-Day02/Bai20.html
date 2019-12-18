@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai20-CSS</title>
+    <style type="text/css">
+        body{
+            background:#fff8dd;
+            font-family: "Times New Roman";
+            margin:0;
+        }
+        *{box-sizing: border-box}
+        .container{
+            padding:20px;
+        }
+        .header, .content{
+            border-bottom:1px dotted black;
+             overflow:hidden;
+        }
+        .logo img{
+            float:left;
+        }
+        .text{
+            padding-top:30px;
+            font-size:30px;
+            font-family:"Brush Script Std";
+            margin:0;
+        }
+        .menu{
+            float:right;
+        }
+        .menu ul{
+            margin:0;
+        }
+        .menu li{
+            list-style:none;
+            float:left;
+            padding:10px 14px;
+
+        }
+        .menu a{
+            text-decoration: none;
+            font-size:20px;
+            color:black;
+        }
+        .menu li:hover{
+            border-bottom:2px solid orangered;
+        }
+        .bgimg{
+            padding:20px 0;
+        }
+        .img-content{
+            position:relative;
+        }
+        .bgimg img{
+            border-radius:10px;
+            width:100%;
+        }
+        .artide{
+            position:absolute;
+            bottom:5px;
+            border-radius:0 0 10px 10px;
+            background: rgba(0,0,0,0.6);
+            width:100%;
+            color:white;
+            padding:20px;
+            opacity:0;
+            transition:all 0.5s ease-in-out;
+
+        }
+
+        .artide button{
+            float:right;
+            color:white;
+            border:none;
+            outline:none;
+            padding:8px 14px;
+            border-radius:10px;
+            background:linear-gradient(#a85d5e,#811315);
+        }
+        .bgimg:hover .artide{
+            opacity:1;
+        }
+        .main{
+            width:80%;
+            float:left;
+            padding:0 20px;
+        }
+        .group4::after, .row::after{
+            content:"";
+            display:block;
+            clear:both;
+
+        }
+        .group4 p, .group4 img{
+            float:left;
+            padding:5px;
+        }
+        .right{
+            float:left;
+            width:20%;
+            position:relative;
+            background:#706b64;
+            padding:20px;
+            border-radius:10px;
+            color:white;
+        }
+        .right:before{
+            content:"";
+            top:20%;
+            position:absolute;
+            border-width:15px;
+            border-style:solid;
+            transform:translateX(-50%);
+            left:0;
+            margin-left:-15px;
+            border-color: transparent #706b64 transparent transparent;
+        }
+       .right .zozor img{
+           margin:auto 25%;
+           border:1px solid black;
+       }
+        .group5 p{
+            word-spacing: 3px;
+        }
+        .circle{
+            margin:-4px 50%;
+            justify-content: center;
+        }
+        .col-33{
+            width:33.333%;
+            float:left;
+        }
+        .col{
+            float:left;
+            width:50%;
+        }
+        .group3{
+            font-family:Bahnschrift;
+        }
+        .col p{color:brown;}
+        .group3 h2{
+            font-family:"Calibri Light";
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="images/zozor_logo.png" alt="" >
+            <p class="text">Zozor</p>
+            <span>Travel diaries</span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bgimg">
+        <div class="img-content">
+            <img src="images/sanfrancisco.jpg" alt="">
+            <div class="artide">
+                <span>Reflections on my holiday in the United States...</span>
+                <button>See artide &#9658;</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row">
+            <div class="main">
+                <div class="group4">
+                    <img src="images/pin.png" alt="">
+                    <p>I'M GREAT TRAVELLER</p>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="right">
+               <div>
+                   <p>ABOUT THE AUTHOR</p>
+                   <div class="zozor">
+                       <img src="images/zozor.png" alt="">
+                   </div>
+                   <div class="group5">
+                       <p>Let me introduce myself:My name's Zozor. I was born on 23 November 2005.</p>
+                       <p>A bit meager, is it not? This is a why I've now decided to write my biography to let my readers know who I really am.</p>
+                   </div>
+                   <div class="icon">
+                       <img src="images/facebook.png" alt="">
+                       <img src="images/twitter.png" alt="">
+                       <img src="images/vimeo.png" alt="">
+                       <img src="images/flickr.png" alt="">
+                       <img src="images/rss.png" alt="">
+                   </div>
+               </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="circle">
+        <img src="images/top.png" alt="">
+
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-33">
+                <div class="group3">
+                    <h2>MY LAST TWEET</h2>
+                    <p>Hee-haw!</p>
+                    <p>12/05 23:12</p>
+                </div>
+            </div>
+            <div class="col-33">
+                <div class="group3">
+                    <h2>MY PICTURES</h2>
+                    <div>
+                        <img src="images/pic1.jpg" alt="">
+                        <img src="images/pic2.jpg" alt="">
+                        <img src="images/pic3.jpg" alt="">
+                        <img src="images/pic4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-33">
+                <div class="group3">
+                    <h2>MY FRIENDA</h2>
+                    <div class="row">
+                        <div class="col">
+                            <p>&#8658; Pupi the rabbit</p>
+                            <p>&#8658; Mr Baobab</p>
+                            <p>&#8658; Kaiwaii</p>
+                            <p>&#8658; Perceval.eu</p>
+                        </div>
+                        <div class="col">
+                            <p>&#8658; Ji</p>
+                            <p>&#8658; Super cucumber</p>
+                            <p>&#8658; Prince</p>
+                            <p>&#8658; Mr Fan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài 14 - Buổi 2</title>
+	<style type="text/css">
+		#div-form{
+			background: green;
+			text-align: center;
+			padding: 10px;
+			width: 50%;
+			margin: auto;
+		}
+		form{
+			background: white;
+			padding-top: 10px;
+			padding-bottom: 5px;
+		}
+		label{
+			display: block;
+			width: 50%;
+			float: left;
+			text-align: right;
+			padding-right: 5px;
+		}
+		fieldset{
+			border: 0px;
+		}
+		input,select, textarea{
+			width: 30%;
+			float: left;
+			text-align: left;
+		}
+		#radios input{
+			width: 5%;
+			float: none;
+		}
+		#things{
+			float: right;
+			width: 49%;
+		}
+		#things table{
+			text-align: left;
+		}
+		input[type=submit]{
+			border-style: none;
+			background: blue;
+			color: white;
+			text-align: center;
+			padding: 5px 0px;	
+			border-radius: 10px;
+			width: 10%;
+			float: none;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="div-form">
+		<h1>Survey Form</h1>
+		<form>
+			<p>Let us know how we can improve freeCodeCamp</p>
+			<fieldset>
+				<label>* Name</label>
+				<input type="text" placeholder="Enter your name" name="">
+			</fieldset>
+			<fieldset>
+				<label>* Email</label>
+				<input type="text" placeholder="Enter your Email" name="">
+			</fieldset>
+			<fieldset>
+				<label>* Age</label>
+				<input type="text" placeholder="Age" name="">
+			</fieldset>
+			<fieldset>
+				<label>Which option best describes your current role</label>
+				<select>
+					<option>Student</option>
+					<option>Teacher</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+				<div id="radios">
+					<input type="radio" name="" value="">Definitely
+					<input type="radio" name="" value="">Maybe
+					<input type="radio" name="" value="">Not sure
+				</div>
+			</fieldset>
+			<fieldset>
+				<label>What do you like most in FCC:</label>
+				<select>
+					<option>Select an option</option>
+					<option>Teacher</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label> Things that should be improved in the future (Check all that apply)</label>
+				<div id="things">
+					<table>
+						<tr>
+							<td><input type="checkbox" name="" value="">Front-end Projects</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">Back-end Projects</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">Data visualization</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">Challengers</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">Open Source Community</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">Gitter help roams</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">Videos</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">City meetups</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="" value="">Wiki</td>
+						</tr>
+						
+					</table>
+				</div>
+			</fieldset>
+			<fieldset>
+				<label>Any comments or Suggestion?</label>
+				<textarea placeholder="Enter your comment here..." cols="100" rows="10"></textarea>
+			</fieldset>
+			<fieldset>
+				<input type="submit" value="submit" name="">
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 5</title>
+	<style type="text/css">
+		.form{
+			width: 523px;
+			height: 511px;
+		}
+		.form .header span {
+			font-weight: bold;
+			font-size: 32px;
+			color: red;
+		}
+		.header{
+			padding-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<form action="" method="post" class="form">
+		<div class="header">
+			<img src="1.png" alt="">
+			<span>Employee Registration Form</span>
+		</div>
+		<table>
+			<tr>
+				<td></td>
+				<td>
+					<input type="radio" name="gender" checked=""> Mr.
+					<input type="radio" name="gender"> Mrs.
+					<input type="radio" name="gender"> Ms.
+				</td>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="fname" value="" placeholder="FirstName"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lname" value="" placeholder="LastName"></td>
+			</tr>
+			<tr>
+				<td>Mail Address 1</td>
+				<td><input type="email" name="mail1" value=""></td>
+			</tr>
+			<tr>
+				<td>Mail Address 2</td>
+				<td><input type="email" name="mail2" value=""></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td><input type="text" name="city" value=""></td>
+			</tr>
+			<tr>
+				<td>State</td>
+				<td>
+					<select name="state" id="">
+						<option value="Gujarat">Gujarat</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Zip</td>
+				<td><input type="text" name="zip" value="" placeholder=""></td>
+			</tr>
+			<tr>
+				<td>Upload Photo</td>
+				<td><input type="file" name="photo" value="" placeholder="No file selected"></td>
+			</tr>
+			<tr>
+				<td>E-mail</td>
+				<td><input type="email" name="e-mail" value="" placeholder=""></td>
+			</tr>
+			<tr>
+				<td>Mobile</td>
+				<td><input type="text" name="mobile" value="" placeholder="+91"></td>
+			</tr>
+			<tr>
+				<td>Languages known</td>
+				<td>
+					<input type="checkbox" name="languages" value="Gujarat" checked=""> Gujarat <br>
+					<input type="checkbox" name="languages" value="Hindi" checked=""> Hindi <br>
+					<input type="checkbox" name="languages" value="English" checked=""> English <br>
+					<input type="checkbox" name="languages" value="Marathi"> Marathi
+				</td>
+			</tr>
+			<tr>
+				<td>Additional Information</td>
+				<td>
+					<textarea name="" placeholder="Optional"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="" value="Submit">
+					<input type="reset" name="" value="Reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

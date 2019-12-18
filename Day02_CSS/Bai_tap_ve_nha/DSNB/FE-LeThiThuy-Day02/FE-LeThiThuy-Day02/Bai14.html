@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 14</title>
+	<style type="text/css">
+		.block-content{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			width: 600px;
+			grid-gap: 20px;
+			margin: auto;
+		}
+		.block-content-1{
+			grid-column: 1;
+			text-align: right;
+		}
+
+
+		.block-content-3{
+			grid-column: 1/-1;
+			padding-bottom: 25px;
+		}
+
+		input[type='submit']{
+			padding: 6px 15px 6px 15px;
+			background: #59ace0;
+			color: #fff;
+			border-radius: 6px;
+		}
+
+		.box2{
+			width: 738px;
+			background: #fafafa;
+			margin: auto;
+			z-index: 2;
+			height: 790px;
+			border-radius: 10px;
+		}
+		.box1{
+			width: 784px;
+			height: 900px;
+			background: #a9d7d1;
+			z-index: 1;
+			margin: auto;
+		}
+		input[type='text'], input[type='email'], select{
+			padding: 4px;
+			width: 200px;
+		}
+
+		input[type='checkbox'], input[type='radio']{
+			margin-left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<form action="" method="post">
+		<div class="box1">
+			<p style="font-size: 30px; font-weight: bold; text-align: center; padding-top: 25px;">Survey Form</p>
+			<div class="box2">
+				<p style="text-align: center; padding-top: 20px;">Let us know how we can improve freeCodeCamp</p>
+				<div class="block-content">
+					<div class="block-content-1">* Name:</div>
+					<div class="block-content-2"><input type="text" name="name" value="" placeholder="Enter your name"></div>
+					<div class="block-content-1">* Email:</div>
+					<div class="block-content-2"><input type="email" name="email" value="" placeholder="Enter your mail"></div>
+					<div class="block-content-1">* Age:</div>
+					<div class="block-content-2"><input type="text" name="age" value="" placeholder="Age"></div>
+					<div class="block-content-1">Which option best describes your current rote?</div>
+					<div class="block-content-2">
+						<select name="" id="">
+								<option value="student">Student</option>
+						</select>
+					</div>
+					<div class="block-content-1">* How likely is that you would recomend freeCodeCamp to a friend?</div>
+					<div class="block-content-2">
+						<input type="radio" name="b" value="" placeholder="">Definitely <br>
+						<input type="radio" name="b" value="" placeholder="">Maybe <br>
+						<input type="radio" name="b" value="" placeholder="">Not sure
+					</div>
+					<div class="block-content-1">What do you like most in FCC:</div>
+					<div class="block-content-2">
+						<select name="" id="">
+								<option value="">Select an option</option>
+						</select>
+					</div>
+					<div class="block-content-1">Things that should be improved in the future (Check akk that apply):</div>
+					<div class="block-content-2">
+						<input type="checkbox" name="a" value=""> Front-end Projects<br>
+						<input type="checkbox" name="a" value=""> Back-end Projects<br>
+						<input type="checkbox" name="a" value=""> Data Visualozation<br>
+						<input type="checkbox" name="a" value=""> Challenges<br>
+						<input type="checkbox" name="a" value=""> Open Source Comunity<br>
+						<input type="checkbox" name="a" value=""> Gitter help rooms<br>
+						<input type="checkbox" name="a" value=""> Videos<br>
+						<input type="checkbox" name="a" value=""> City Meetups<br>
+						<input type="checkbox" name="a" value=""> Viki<br>
+						<input type="checkbox" name="a" value=""> Forum<br>
+						<input type="checkbox" name="a" value=""> Addtional Courses<br>
+					</div>
+					<div class="block-content-1">Any Comments or Suggestions?</div>
+					<div class="block-content-2">
+						<textarea name="" id="" cols="25" rows="5" placeholder="Enter your comment here..."></textarea>
+					</div>
+					<div class="block-content-3" align="center"><input type="submit" name="" value="Submit"></div>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
