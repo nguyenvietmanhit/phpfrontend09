@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Demo flexbox</title>
+	</head>
+	<style type="text/css">
+		.flex-item {
+			height: 50px;
+			background: blue;
+		}
+		.red {
+			background: red;
+		}
+
+		.flex-container {
+			display: flex;
+			/*flex-wrap: wrap;*/
+		}
+
+		.flex-item {
+			flex-basis: 25%;
+			margin: 0 15px;
+		}
+	</style>
+	<body>
+
+		<style>
+			.wrapper {
+				border: 2px solid #000;
+				padding: 15px;
+			}
+
+			.header {
+				border: 2px solid #000;
+				padding: 20px;
+				text-align: center;
+			}
+
+			.row {
+				display: flex;
+				margin-left: -15px;
+				margin-right: -15px;
+			}
+
+			.col-md-3, .col-md-9 {
+				border: 2px solid #000;
+				padding: 40px;
+				text-align: center;
+				margin: 15px;
+			}
+
+			.col-md-3 {
+				flex-basis: 30%;
+			}
+			.col-md-9 {
+				flex-basis: 70%;
+			}
+
+			.footer {
+				border: 2px solid #000;
+				text-align: center;
+				padding: 5px;
+			}
+		</style>
+	<!-- Demoflex box -->
+	<div class="wrapper">
+		<div class="header">
+			Header
+		</div>
+
+		<!-- Khi áp dụng cơ chế dàn layout theo flexbox
+		nên ko cần sử dụng class bao với content bên trong
+		từng cột -->
+		<div class="row">
+			<div class="col-md-3">
+				Sidebar
+			</div>
+			<div class="col-md-9">
+				Content
+			</div>
+		</div>
+
+		<div class="footer">
+			Footer
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+		<div class="flex-container">
+			<div class="flex-item">
+				Flex item 1
+			</div>
+			<div class="red flex-item">
+				Flex item 2
+			</div>
+			<div class="flex-item">
+				Flex item 3
+			</div>
+			<div class="flex-item">
+				Flex item 4
+			</div>
+		</div>
+	</body>
+</html>
