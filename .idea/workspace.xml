@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7970cfde-d48e-47c7-a91a-8fd279df0028" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Code_demo_tren_lop/demo_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day02_CSS/Code_demo_tren_lop/demo_css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/Tâm Thư Gửi Thầy (.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/Tam_thu.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +17,18 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -43,14 +44,83 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS/Code_demo_tren_lop/demo_css.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="225" column="6" selection-start-line="225" selection-start-column="6" selection-end-line="225" selection-end-column="6" />
+            <state relative-caret-position="544">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai01.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 09 + 10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 11.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai06.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/baitap01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai02.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 02.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -85,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,13 +183,84 @@
               <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
               <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="Buoi02_NguyenThiLinh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="Buoi02_NguyenThiLinh" type="462c0819:PsiDirectoryNode" />
+              <item name="Buoi02_NguyenThiLinh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE- MaiMinhHoang-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE- MaiMinhHoang-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE- MaiMinhHoang-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE-DangThiXuanQuynh-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE-DangThiXuanQuynh-Day02" type="462c0819:PsiDirectoryNode" />
+              <item name="FE-DangThiXuanQuynh-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE-LeThanhNguyet-Day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
               <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,6 +271,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\phpfrontend09\Day02_CSS\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\phpfrontend09\Day01_HTML\Bai_tap_ve_nha" />
     </key>
   </component>
@@ -157,17 +300,17 @@
       <workItem from="1576036665051" duration="374000" />
       <workItem from="1576041412871" duration="2258000" />
       <workItem from="1576122777347" duration="850000" />
+      <workItem from="1576663334246" duration="2564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3482000" />
+    <option name="totallyTimeSpent" value="6046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,8 +341,71 @@
     <entry file="file://$PROJECT_DIR$/Day01_HTML/Bai_tap_ve_nha/FE09-Nguyenkimnamthang-Day01/bai1.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS/Code_demo_tren_lop/demo_css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="225" column="6" selection-start-line="225" selection-start-column="6" selection-end-line="225" selection-end-column="6" />
+        <state relative-caret-position="697">
+          <caret line="247" column="4" lean-forward="true" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai19.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai01.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai02.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 02.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 09 + 10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/baitap01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>
