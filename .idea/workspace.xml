@@ -3,159 +3,88 @@
   <component name="ChangeListManager">
     <list default="true" id="7970cfde-d48e-47c7-a91a-8fd279df0028" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/images/bt5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/images/photo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/style/bai19buoi2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/style/buoi02.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 07.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 09 + 10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/img/anh18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/img/bt5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai06.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai07.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai08.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai09.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai20.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/bt5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/external_link.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/flickr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/pexels-photo-414612.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/pic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/pic4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/pin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/red_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/rss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/sanfrancisco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/small_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/vimeo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/yellow_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/zozor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/images/zozor_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/Tam_thu.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/baitap01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/baitap02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/baitap03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/18.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/img/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/img/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/jquery-3.2.1.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/images/anh1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/images/bt5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bai14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bai17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bt5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/bt5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn1.HTML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt01.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt02.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt03.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt04.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt05.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt07.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt08.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt09.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt10.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt13.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/bt14.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/css/css1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/demo_cssfile_html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/demo_html_css1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/images/balloons.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/images/bt5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/images/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B1/CSSB1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B1/HTMLB1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B2/CSSB2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B2/HTMLB2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B3/CSSB3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B3/HTMLB3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B4/CSSB4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B4/HTMLB4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/images/anh1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/images/bt5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02/FE09-Nguyenkimnamthang-day02/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02/FE09-Nguyenkimnamthang-day02/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02/FE09-Nguyenkimnamthang-day02/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/fe09-Nguyễn đạt/bài tập/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/fe09-Nguyễn đạt/bài tập/bai2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_2.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -169,19 +98,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="17" />
+          <entry key="HTML" value="1" />
+          <entry key="html" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="17" />
+          <entry key="HTML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -197,7 +127,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NongVietHoang-day2/FE09-NongVietHoang-day2/bai1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -229,24 +169,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
-              <item name="Day01_HTML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
-              <item name="Day01_HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
@@ -270,12 +198,32 @@
               <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
               <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE09-NongVietHoang-day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE09-NongVietHoang-day2" type="462c0819:PsiDirectoryNode" />
+              <item name="FE09-NongVietHoang-day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="FE09-PhamDangKhoa-Day02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,16 +264,18 @@
       <workItem from="1576041412871" duration="2258000" />
       <workItem from="1576122777347" duration="850000" />
       <workItem from="1576663334246" duration="2564000" />
+      <workItem from="1576813998417" duration="4686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7954000" />
+    <option name="totallyTimeSpent" value="12640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,92 +311,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai19.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai19.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai1.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai01.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai02.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 02.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 01.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 09 + 10.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 11.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai01.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai06.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/baitap01.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai1.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai9.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/index.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai1.html" />
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day02/FE-PhungGiaLoc-Day02/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/Buoi02_NguyenThiLinh/Buoi02_NguyenThiLinh/Bai1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai01.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai02.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 02.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 01.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn1.HTML">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="527">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 09 + 10.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn6.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02/New folder/btvn7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LeSinhThinh-Day02-CSS/html/baitap01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE- MaiMinhHoang-Day02/FE- MaiMinhHoang-Day02/Bai 11.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="413">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-DangThiXuanQuynh-Day02/FE-DangThiXuanQuynh-Day02/Bai06.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day02/baitap01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai1.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D2/FE09-NguyenHungThang-D2/B1/HTMLB1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-LeThiThuy-Day02/FE-LeThiThuy-Day02/Bai9.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02/FE09-Nguyenkimnamthang-day02/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="646">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenHuuCuong-Day02/FE-NguyenHuuCuong-Day02/index.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02/FE09-Nguyenkimnamthang-day02/bai3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
+        <state relative-caret-position="-182" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2/FE-NguyenThanhTrung-Day2/bai1.html">
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02/FE09-Nguyenkimnamthang-day02/bai2.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day02/FE09-NguyenThiThuHien-Day02/bai2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/fe09-Nguyễn đạt/bài tập/bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS/Bai_tap_ve_nha/DSNB/FE09-NongVietHoang-day2/FE09-NongVietHoang-day2/bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
