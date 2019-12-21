@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- khi làm responsive bắt buộc phải có thẻ meta sau
+	để luôn cố định khung nhìn - viewport là 1 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<title>Demo Bootstrap</title>
+</head>
+<body>
+<!-- Khái niệm Responsive -->
+<style type="text/css">
+	/*với mobile max-wdith sẽ là 767px*/
+	/*với ipad/table min-width: 768px và max-width: 1023px*/
+	/*với pc min-width: 1024px*/
+	@media(min-width: 768px) and (max-width: 1023px) {
+		/*css bên trong sẽ ăn với thiết bị ipad/tablet*/
+		.h1-res {
+			color: blue;
+		}
+	}
+	@media(max-width: 767px) {
+		/*các css bên trong sẽ ăn với thiết bị mobile*/
+		.h1-res {
+			color: red;
+		}
+	}
+</style>
+<div class="responsive">
+	<h1 class="h1-res">
+		Nội dung thẻ h1 trên pc mặc định là màu đen, trên mobile thì màu đổi màu red, còn trên ipad thì đổi thành màu xanh, 
+	</h1>
+</div>
+
+<!-- File Reset CSS -->
+<!-- Tham khảo file Normalize.css -->
+<!-- Bootstrap -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-6">
+			Khối thứ nhất
+		</div>
+		<div class="col-md-6 col-6">
+			Khối thứ hai
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4 col-6 ">Khối thứ 1</div>
+		<div class="col-md-4 col-6">Khối thứ 2</div>
+		<div class="col-md-4">Khối thứ 2</div>
+	</div>
+
+	<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  A simple info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert—check it out!
+</div>
+</div>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+</html>
