@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo Javasript</title>
+	<script type="text/javascript">
+		//sự kiện onload  trong javascript tương đương với document.ready trong jQuery
+		window.onload = function() {
+			var obj_a = document.getElementById('a-id');
+			console.log(obj_a.innerHTML);
+		}
+	</script>
+</head>
+<body>
+	<a href="#" id="a-id">
+		Thẻ a
+	</a>
+	<h1>Demo Javascript</h1>
+
+	<!-- Nhúng Javascript nó có 3 cách nhúng giống hệt như CSS -->
+	<!-- 1 - Nhúng inline trong thẻ HTML thông qua tên sự kiện trong 
+		JS 
+	-->
+	<h2 onclick="var a = 5; alert(a);">
+	Click để hiển thị popup
+	</h2>
+
+	<!-- 2 - Nhúng inline trong file .html hiện tại -->
+	<script type="text/javascript">
+		var b = 5;
+		console.log("Biến b có giá trị là: " + b);
+	</script>
+
+	<!-- 3 - Nhúng từ 1 file bên ngoài -->
+	<!-- thông qua file có đuôi là .js -->
+	<script src="script.js" type="text/javascript"></script>
+	<!-- về mặt hiệu suất, các mã javascript nên được đặt ở cuối file .html, ưu tiên hiển thị xong hết HTML CSS thì mới chạy mã Javascript -->
+
+	<script type="text/javascript">
+		// 1 - BIẾN
+		var name;
+		// let string1 = "abc";
+		var age = 15;
+		age = 'string';
+
+		// quy tắc đặt tên biến 
+		// khai báo biến hợp lệ
+		var $name;
+		var __a123;
+		//khai báo 1 số biến lỗi
+		// var 1name;
+		// var &age;
+		// var if;
+		console.log("Đoạn code này sẽ ko chạy khi mà code bên trên nó có lỗi");
+
+		//Javascript là phân biệt hoa thường
+		var name;
+		var Name;
+
+		// Thực hành 1
+		var username = 'nvmanh';
+		var password = 123456;
+		var undefined = null;
+
+		//Thực hành 3
+		var name = 'Mạnh';
+		var age = 29;
+		var address = "Sơn Đồng - Hoài Đức - Hà Nội";
+
+		document.write('Tên của bạn là ' + name);
+		document.write('<br />');
+		document.write('Tuổi của bạn là: ' + age);
+		document.write('<br />');
+		document.write('Địa chỉ của bạn là: ' + address);
+
+		// 2 - Hằng 
+		// khai báo bằng từ kháo const, tên hằng nên viết hoa
+		const AGE = 5;
+		document.write("Hằng AGE đang có giá trị là: " + AGE);
+		//cố tình gán lại giá trị cho hằng sẽ báo lỗi
+		// AGE = 10;
+		// document.write("Hằng AGE sau khi lại giá trị là: " + AGE);
+
+		// 3 - Kiểu dữ liệu trong Javascript
+		// + Number - kiểu số
+		var number1 = 123;
+		var number2 = 1.23;
+		console.log("Kiểu dữ liệu của biến number1 là: " + typeof number1);
+
+		// + String - Kiểu chuỗi
+		var string1 = "String thứ nhất";
+		var string2 = 'String thứ hai';
+		var string3 = "Hello 'Mạnh' ";
+		document.write("Chuỗi string 3 đang có giá trị là: " + string3);
+		console.log("Kiểu dữ liệu của string1 = " + typeof string1);
+
+		// + Boolean - bool - Kiểu dữ liệu true false
+		//chỉ có 2 giá trị duy nhất là true và false viết thường hết
+		var is_true = true; //Sai: True, TRUE
+		var is_false = false;
+		document.write("is_true = " + is_true);
+		console.log(typeof is_true);
+
+		// 3 kiểu dữ liệu number, string, boolean gọi là kiểu dữ liệu nguyên thủy
+
+		// + undefined - Kiễu dữ liệu ko xác định
+		// xảy ra khi mà khai báo biến mà ko gán giá trị cho biến
+		var name1;
+		document.write("name = " + name1);
+		console.log("Kiểu dữ liệu của name1 = " + typeof name1);
+
+		 // Array - Mảng
+		 //javscript coi mảng là 1 object
+		 var arr1 = []; //khai báo mảng rỗng
+		 var arr2 = [1, 'string', true, undefined, []];
+		 console.log("Kiểu dữ liệu của biến arr2: " + typeof arr2);
+
+		 //Object
+		 var person = {
+		 	name: 'Mạnh',
+		 	age: 29,
+		 	display: function() {
+		 		document.write("Function");
+		 	}
+		 };
+		 console.log(typeof person); //object
+		 // kiểu dữ liệu array và object gọi là kiểu dữ liệu có cấu trúc
+
+		 // 4 - Hàm - Function
+		 //  Hàm có sẵn
+		 // Hàm tự định nghĩa
+		 // Khai báo hàm
+		 function display() {
+		 	//code javascript
+		 	document.write("Nội dung bên trong hàm");
+		 }
+
+		 //gọi hàm
+		 display();
+
+		 //Hàm có tham số
+		 //viết tên hàm theo kiểu camel case
+		 function displayName(name) {
+		 	document.write("Hello, " + name);
+		 }
+
+		 //gọi hàm và truyền giá trị thật cho tham số
+		 displayName('Mạnh');
+		 displayName("A");
+		 displayName("B");
+
+		 // document.write("HEello, Mạnh");
+		 // document.write("HEello, A");
+		 // document.write("HEello, B");
+
+		 //viết hàm cộng 2 số bất kỳ
+		 function sum(number1, number2) {
+		 	//thực hiện logic
+		 	var sum = number1 + number2;
+		 	document.write("Tổng là: " + sum);
+		 }
+
+		 //gọi hàm
+		 sum(2, 3);
+		 sum(-1, 5);
+
+		 //hàm có tham số được khởi tạo giá trị mặc định
+		 function displayAge(age = 13) {
+		 	document.write("Tuổi của bạn là: " + age);
+		 }
+
+		 displayAge();
+		 displayAge(234);
+
+		 //hàm có giá trị trả về
+		 //viết hàm tính tổng 3 số, trả về giá trị là tổng của 3 số
+		function sumThreeNumber(number1, number2, number3) {
+			var sum = number1 + number2 + number3;
+			//từ khóa return
+			// làm cho hàm mang 1 giá trị gì đó phụ thuộc vào logic
+			//kết thúc hàm
+			return sum;
+
+			document.write("Đoạn này sẽ ko được thực thi vì nằm sau lệnh return");
+		}		
+
+		 var sum = sumThreeNumber(1, 2, 3);
+		 document.write("sum = " + sum);
+
+		 //hiển thị tên tuổi 
+		 function displayInfo(name, age) {
+		 	var info = "Tên của bạn: " + name;
+		 	info += "<br />";
+		 	info += "Tuổi của bạn: " + age;
+
+		 	return info;
+		 }
+
+		 var info = displayInfo('Manh', 29);
+
+		 // Thao tác với 1 số hàm dựng sẵn trong JAvasscript
+		 //hiển thị chuỗi ra màn hình ở 1 document mới
+		 document.write("Hiển thị chuỗi bên trong hàm");
+
+		 //thường dùng để debug
+		 console.log("console.log");
+
+		 //hiển thị nội dung dưới dạng popup của trình duyệt
+		 // alert("Alert");
+
+		 //lấy thông tin nhập từ cửa số popup
+		 // var field1 = prompt("Nhập nội dung thứ nhất: ");
+		 // var field2 = prompt("Nhập nội dung thứ hai:");
+		 // document.write("Nội dung thứ nhất: " + field1);
+		 // document.write("Nội dung thứ hai: " + field2);
+
+		//popup xác nhận thwucj thi hành động
+		 // var is_confirm = confirm("Bạn có muốn xóa hay ko?");
+	</script>
+	<h3 id="h3-id" title="Title của h3">
+		<span style="color: red">
+			Nội dung ban đầu của thẻ h3
+		</span>
+	</h3>
+
+	<script type="text/javascript">
+		// trong javascript, nên khai báo id cho phần tử muốn thao tác
+		var obj_h3 = document.getElementById('h3-id');
+		console.log(obj_h3);
+		//lấy text bên trong
+		console.log("Lấy nội dung bên trong lấy theo kiểu HTML: " + obj_h3.innerHTML);
+		console.log("LẤy nội dung bên trong theo kiểu text:" + obj_h3.innerText);
+
+		//set text bên trong
+		obj_h3.innerHTML = "<b>Nội dung mới</b>";
+		obj_h3.innerText = "<b>Nội dung mới</b>";
+
+		//chuyển hướng trong javasript
+		// window.location = "http://google.vn";
+
+		//tìm kiếm chuỗi trong chuỗi ban đầu
+		var string = "abcdef";
+		var search = 'de';
+		var position = string.indexOf(search);
+		console.log("position = " + position);
+
+		// Các sự kiện trong Javascript
+	</script>
+
+	<h1 onmouseenter="console.log('hover')" 
+	onmouseleave="console.log('not hover')">
+		Thẻ h1
+	</h1>
+
+	<p id="p-event" title="Title p">
+		Nội dung thẻ p
+	</p>
+
+	<script type="text/javascript">
+		//lấy ra đối tượng cần thao tác theo id
+		var obj_p = document.getElementById('p-event');
+		//add sự kiện cho đối tượng vừa tìm được thông qua phương thức sau
+		//sử dụng cơ chế hàm callback, chờ sự kiện xảy ra rồi mới thực thi code bên trong hàm callback
+		obj_p.addEventListener('click', function() {
+			console.log("Vừa click thẻ p");
+			console.log(obj_p.innerHTML);
+		});
+	</script>
+
+	<form action="" method="post" id="form" onsubmit="return handleSubmit()">
+		Chọn giới tính
+		<select id="gender">
+			<option value="0">Nữ</option>
+			<option value="1">Name</option>
+		</select>
+		<br />
+		Nhập tên
+		<input id="name" type="text" value="" placeholder="Nhập tên" name="name" />
+		<br />
+		<input type="submit" value="Show info" />
+	</form>
+	<script>
+		function handleSubmit() {
+			console.log("submit form");
+
+			//ngăn ngừa form tải lại
+			return false;
+		}
+	</script>
+</body>
+</html>
