@@ -1,0 +1,147 @@
+*{
+
+}
+
+.bao {
+    margin-left: -50px;
+}
+
+.main_row2_row3_left {
+    margin-left: 50px;
+}
+
+.main {
+    padding: 56px;
+}
+
+p.main_row2_row3_p {
+    color: #626262;
+    font-family: playfairdisplay-regular;
+}
+
+h2.main_row2_row3_h2 {
+    font-family: myriad regular,sans-serif;
+    color: #626262;
+}
+
+.main_row2_row3 {
+    display: flex;
+}
+
+p.main_row2_row2_left_row2 {
+    font-family: myriad regular,sans-serif;
+    color: #B5AE9F;
+    margin-top: 20px;
+    margin-bottom: -4px;
+    margin-left: 50px;
+}
+
+.main_row2_row2_left_row1 {
+    margin-left: 50px;
+}
+
+.main_row2_row2_left_row1 {}
+
+.main_row2_row2_right {
+    width: 50%;
+}
+
+.main_row2_row2_left {
+    width: 50%;
+}
+
+.main_row2_row2 {
+    display: flex;
+}
+
+p.main_row2_row1 {
+    font-family: myriad regular,sans-serif;
+    color: #B5AE9F;
+    margin: 50px 0px;
+}
+
+p.main_row1_row3 {
+    font-family: myriad regular,sans-serif;
+    color: #626262;
+}
+
+h2.main_row1_row2 {
+    font-family: myriad regular,sans-serif;
+    color: #626262;
+}
+
+p.main_row1_row1 {
+    font-family: myriad regular,sans-serif;
+    color: #B5AE9F;
+}
+
+p.main_row1_row1 {}
+
+p.main_row1_row1 {}
+
+.main_row1 {}
+
+body {padding-left: 100px;padding-right: 100px;}
+
+img {
+    /* width: 100%; */
+}
+
+img.anh_header {
+    width: 100%;
+}
+
+img.anh2bai3 {
+    width: 100%;
+}
+.header_row1_left {
+    font-size: 41px;
+    font-family: MyriadPro-Bold;
+}
+
+a.a_header {
+    text-decoration: none;
+    color: #828282;
+    font-family: myriad regular,sans-serif;
+}
+
+li.header_row1_right_ul_li {
+    width: 25%;
+}
+
+ul.header_row1_right_ul {
+    display: flex;
+    list-style: none;
+}
+
+.header_row1_right {
+    width: 55%;
+}
+
+.header_row1_left {
+    width: 45%;
+}
+
+.header_row1 {
+    display: flex;
+}
+@font-face
+{
+	font-family: 'playfairdisplay-regular';
+	src:url("../fonts/PlayfairDisplay-Regular.otf");
+}
+@font-face
+{
+	font-family: 'playfairdisplay-regular';
+	src:url("../fonts/PlayfairDisplay-Regular.otf");
+}
+@font-face
+{
+	font-family: 'Ubuntu-Bold';
+	src:url("../fonts/Ubuntu-Bold.otf");
+}
+@font-face
+{
+	font-family: 'MyriadPro-Bold';
+	src:url(../fonts/MyriadPro-Bold.otf);
+}

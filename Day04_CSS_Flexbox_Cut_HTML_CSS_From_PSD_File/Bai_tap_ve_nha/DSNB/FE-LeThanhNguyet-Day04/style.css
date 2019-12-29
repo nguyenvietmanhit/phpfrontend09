@@ -1,0 +1,155 @@
+.header {
+    background: #2f2f2f;
+    padding: 10px 0;
+    color: white;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.header li {
+	display: inline-block;
+    padding: 0 15px;
+}
+a.menu-link {
+    color: white;
+    text-decoration: none;
+    font-family:  Myriad Pro;
+}
+.col-md-3 {
+	flex-basis: 30%;
+}
+.col-md-9 {
+	flex-basis: 70%;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+/*nhung phong da tai ve vao he thong*/
+/*../ la len mot cap file*/
+@font-face {
+	src: url('fonts/Pacifico.ttf');
+	font-family: "Pacifico";
+}
+span.logo-text {
+    font-size: 30px;
+    font-family: Pacifico;
+}
+.col-md-5 {
+	flex-basis: 40%;
+}
+.col-md-7 {
+	flex-basis: 60%;
+}
+.main-top {
+    background: #f1f1f1;
+    padding: 30px 0;
+}
+.title {
+	margin-top: 0;
+}
+.main-top .row {
+	align-items: flex-start;
+}
+.col-md-5, .col-md-7 {
+	margin: 0 20px;
+}
+.main-top .row {
+	align-items: flex-start;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+h2.title {
+    font-family: Myriad Pro;
+}
+a.learn-more {
+    /* border-left: 11px; */
+    border: 10px solid #f99640;
+    background: #f99640;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Myriad Pro;
+}
+p.description {
+    font-family: Myriad Pro;
+        opacity: 50%;
+}
+h2.tagh2 {
+    font-family: Myriad Pro;
+    padding-top: 20px;
+}
+h2.tagh2 {
+    font-family: Myriad Pro;
+
+}
+
+/* Main center */
+.trong {
+    width: 250px;
+    height: 200px;
+    background: #2f2f2f;
+}
+
+h3.tagh3 {
+    font-family: Myriad Pro;
+}
+.text {
+    font-family: Myriad Pro;
+}
+a.learnmore {
+    /* border: 2px solid; */
+    border: 10px solid #f99640;
+    background: #f99640;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.main-bottom {
+    background: #2f2f2f;
+}
+h2.tagh3 {
+  
+    font-family: Myriad Pro;
+}
+.text1 {
+    font-family: Myriad Pro;
+    color: white;
+}
+h3.tagh4 {
+    font-family: Myriad Pro;
+    color: white;
+}
+.fb {
+    color: white;
+    font-family: Myriad Pro;
+}
+
+
+h2.tagh4 {
+    color: white;
+    font-family: Myriad Pro;
+}
+h3.tagh5 {
+    color: white;
+    font-family: Myriad Pro;
+}
+h3.tagh6 {
+    color: white;
+    font-family: Myriad Pro;
+}
+.row2 {
+	display: flex;
+}
+.col-md-4 {
+	flex-basis: 33.33%;
+}
+div.learnmore {
+    margin-bottom: 60px;
+}
+.end {
+    text-align: center;
+    font-family: Myriad Pro;
+    margin: 30px;
+}

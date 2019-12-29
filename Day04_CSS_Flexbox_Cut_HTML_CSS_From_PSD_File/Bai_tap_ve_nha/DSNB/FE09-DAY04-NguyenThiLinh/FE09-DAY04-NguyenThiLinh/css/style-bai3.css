@@ -1,0 +1,122 @@
+@font-face{
+	src: url('../fonts/PlayfairDisplay-Regular.ttf');
+	font-family: "PlayfairDisplay-Regular";
+}
+@font-face{
+	src: url('../fonts/Inconsolata-Regular.ttf');
+	font-family: "Inconsolata-Regular";
+}
+body{
+	background: #ffffff;
+	font-family: PlayfairDisplay-Regular;
+}
+.header{
+	text-transform: uppercase;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-top: 60px;
+}
+.header .header-top .logo{
+	font-family: Inconsolata-Regular;
+	font-size: 30px;
+	float: left;
+}
+.header .header-top .links{
+	float: right;
+	width: 50%;
+}
+.header .header-top .links ul li{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #919191;
+	display: inline-block;
+	list-style-type: none;
+	width: 20%;
+	float: right;
+	text-align: right;
+}
+.header .header-big-image{
+	clear: both;
+}
+.header .header-big-image img{
+	width: 100%;
+	margin-top: 45px;
+	margin-bottom: 90px;
+}
+.main, .main-under-sign-up{
+	padding-left: 145px;
+	padding-right: 145px;
+}
+p{
+	font-size: 14px;
+}
+p.type{
+	color: #919191;
+	text-transform: uppercase;
+}
+.main h3{
+	color: #626262;
+	font-size: 30px;
+}
+.main .photodiary .leave-comment{
+	text-decoration: none;
+	color: #919191;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 45px;
+	margin-bottom: 120px;
+}
+.type-contain img{
+	width: 100%;
+}
+.type-contain .lifestyle-right, .lifestyle-left {
+	margin-bottom: 130px;
+}
+.type-contain .lifestyle-left{
+	float: left;
+	width: 48%;
+}
+.type-contain .lifestyle-right{
+	float: right;
+	width: 48%;
+}
+.sign-up{
+	clear: both;
+	width: 100%;
+	background: #f0f0f0;
+	height: 280px;
+	margin-bottom: 100px;
+}
+.sign-up h3{
+	color: #626262;
+	font-size: 30px;
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+.sign-up .sub{
+	margin: auto;
+	width: 45%;
+	text-align: center;
+	padding-top: 70px;
+}
+.sign-up input{
+	border: 0px;
+	border-bottom: 1px solid black;
+	width: 55%;
+	background: #f0f0f0;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.load-more{
+	clear: both;
+}
+.a-load-more{
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #919191;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+	margin-left: 45%;
+}

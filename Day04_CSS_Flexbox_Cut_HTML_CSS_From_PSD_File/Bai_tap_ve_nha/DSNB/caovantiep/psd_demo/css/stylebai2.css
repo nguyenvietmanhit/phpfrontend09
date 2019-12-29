@@ -1,0 +1,25 @@
+@font-face{
+	src: url('../fonts/QlassikBold_TB.ttf');
+	font-family: "Qlassik";
+}
+.header{
+	background: #ddedee;
+}
+.header-text {
+    font-family: qlassik;
+    padding: 20px 0;
+    color: #3a6669;
+    display: inline-block;
+}
+.container {
+    max-width: 70%;
+    margin: center;
+    margin: auto;
+}
+ .main a{
+	text-decoration: none;
+	color: white;
+	flex-basis: 19%;
+	background: #8db13c;
+	margin: 0 1px;
+}

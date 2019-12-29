@@ -1,0 +1,47 @@
+.header {
+    background: #2F2F2F;
+}
+.header {
+    background: #2F2F2F;
+    padding: 10px;
+    color: #fff;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.header li {
+	    display: inline-block;
+	    padding: 0 15px;
+	}
+	a.menu-link {
+	    color: #fff;
+	    text-decoration: none;
+	    font-family: cursive;
+	}
+	.logo.col-md-3 {
+	    flex-basis: 30%;
+	}
+	.menu.col-md-9 {
+	    flex-basis: 70%;
+	}
+	.contianer {
+	    max-width: 70%;
+	    margin: auto;
+	    background: blue;
+	}
+	@font-face{
+		src:url('../fonts/Pacifico.ttf');
+		font-family: "Pacifico";
+	}
+	span.logo-text {
+    font-size: 36px;
+    font-family: Pacifico;
+    text-align: center;
+    
+}
+.main-top {
+    /* margin-left: -27px; */
+    /* margin-right: -27px; */
+    padding:30px 0;
+}
