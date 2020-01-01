@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thực hành trên lớp</title>
+</head>
+<body>
+	<h1>Thực hành</h1>
+	<form action="" method="post" onsubmit="return handleAdd()">
+		Number 1:
+		<input type="text" id="number1" value="" />
+		<br />
+		Number 2:
+		<input type="text" id="number2" value="" />
+		<br />
+		<input type="submit" value="Add" />
+	</form>
+	<h3 id="error" style="color: red"></h3>
+	<h3 id="result" style="color: green"></h3>
+<script type="text/javascript">
+	function handleAdd() {
+		//Cộng 2 số lấy từ input form
+		//lấy giá trị của 2 input theo id
+var obj_number1 = document.getElementById('number1');
+var number1 = obj_number1.value;
+var obj_number2 = document.getElementById('number2');
+var number2 = obj_number2.value;
+console.log(typeof number1);	
+ console.log(typeof number2);
+		//Validate form
+		var error = '';
+		var result = '';
+		//trường hợp ko nhập gì
+		if (number1 == '' || number2 == '') {
+			error = "Không được để trống các trường";
+		} 
+		//trường hợp có nhập nhưng nhập text
+		else if(isNaN(number1) || isNaN(number2)) {
+			error = "Bắt buộc phải nhập số";
+		}
+		//xử lý cộng hai số
+		else {
+			//ép kiểu dữ liệu
+			//do giá trị từ trên form với javasript
+			// đang nhận kiểu string nên cần phải thêm bước ép kiểu khi cộng 2 số
+			number1 = parseInt(number1);
+			number2 = parseInt(number2);
+			var sum = number1 + number2;
+			result = "Tổng 2 số là: " + sum; 
+		}
+
+		//hiển thị ra màn hình
+		var obj_error = document.getElementById('error');
+		obj_error.innerHTML = error;
+		document.getElementById('result').innerHTML = result;
+
+		//hiển thị mà ko tải lại trang
+		return false;
+	}
+
+	//viết 1 hàm kiểm tra số nguyên tố
+	// Sau đó kiểm tra với các giá trị: 7, 9, 12, 15 ...
+	function isPrime(number) {
+		//mặc định gán là true
+		var is_prime = true;
+
+//trường hợp < 2 thì ko phải là số nguyên tố
+		if (number < 2) {
+			return false;
+		} 
+
+		//chỉ cần number chia hết cho i tại 1 thời điểm lặp nào đó, thì chắc chắn không phải là số nguyên tố
+		for(var i = 2; i <= Math.sqrt(number); i++) {
+			if (number % i == 0) {
+				is_prime = false;
+				break;
+			}
+		}
+
+		return is_prime;
+	}
+
+	console.log(isPrime(7)); //true
+	console.log(isPrime(9)); //false
+	console.log(isPrime(12)); //false
+</script>
+</body>
+</html>

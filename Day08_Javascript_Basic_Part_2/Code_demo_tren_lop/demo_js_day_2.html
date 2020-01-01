@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Javascript phần 2</title>
+</head>
+<body>
+	<h1>Demo Javascript 2</h1>
+
+	<script type="text/Javascript">
+		//thêm sự kiện onload để đảm bảo HTML CSS được tải xong
+		// hết thì mới chạy Javascript
+		window.onload = function() {
+			//code JAvascript
+			// I - TOÁN TỬ
+			// Toán tử số học
+			var number1 = 4;
+			var number2 = 3;
+			var cal1 = number1 + number2;
+			var cal2 = number1 - number2;
+			var cal3 = number1 * number2;
+			var cal4 = number1 / number2;
+			var cal5 = number1 % number2; //chia lấy dư
+			document.write("Tổng 2 số = " + cal1);
+			document.write("<br />");
+			document.write("Hiệu 2 số = " + cal2);
+			document.write("<br />");
+			document.write("Tích 2 số = " + cal3);
+			document.write("<br />");
+			document.write("Thương 2 số = " + cal4);
+			document.write("<br />");
+			document.write("Phép chia lấy dư = " + cal5);
+			document.write("<br />");
+
+			number1++; //tăng giá trị lên 1
+			number2--; // giảm giá trị đi 1
+			document.write("Biến number1 khi tăng lên 1 có giá trị: " + number1);
+			document.write("<br />");
+			document.write("Biến number2 khi giảm đi 1 có giá trị: " + number2);
+			document.write("<br />");
+
+			var a = 5;
+			var sum = a++ - 2 + ++a; //
+			//      =  5  - 2  +  7 // 10
+
+			var x = 5;
+			var sum = x++ * ++x + 2 * --x % 2;
+					// 5  *  7  + 0 // 35
+			//41 35 38 39 32 
+	var  x = 5;
+	var sum = x * x - --x  * 2 + x++ - x * ++x;
+	//     =    25  -  4   * 2 +  4  -  5 * 6;
+	// 66 -9 
+		// Toán tử so sánh
+		number1 = 5;
+		var number2 = 4;
+		var is_compare1 = number1 == number2; //false
+		var is_compare2 = number1 != number2; //true
+		var is_compare3 = number1 > number2; //true
+		var is_compare4 = number1 >= number2;// true
+		var is_compare5 = number1 < number2; //false
+		var is_compare6 = number1 <= number2; //false
+
+		//Toán tử logic
+		// Toán tử AND &&
+		//chỉ trả về TRUE khi cả 2 biểu thức so sánh bên cạnh nó trả về TRUE
+		var number1 = -2;
+		var number2 = 0;
+var is_logic_and = (number1 > number2) && (number1 > 0); //false
+
+	// TOÁN TỬ OR ||
+	// trả về TRUE khi chỉ cần 1 trong 2 biểu thức so sánh bên cạnh nó trả về TRUE
+var is_logic_or = (number1 > number2) || (number2 < 0);
+//false
+	//Toán tử NOT !
+	var is_logic_not = !(number2 >= 0); //false
+
+	// TOÁN TỬ GÁN
+		var number = 1;
+		number += 3; //number = number + 3 = 4
+		number -= 2; //number = number - 2 = 2
+		number *= 3; //number = number * 3 = 6
+		number /= 2; //number = number / 2 = 3
+		number %= 2; //number = number % 2 = 1
+
+		// TOÁN TỬ ĐIỀU KIỆN - if..esle
+		number3 = -1;
+		if (number3 > 0) {
+			document.write("number > 0");
+		} else {
+			document.write("number <= 0");
+		}
+		var check_number = number > 0 ? "number > 0" : "number <= 0"; 
+		document.write(check_number);
+
+		// CÂU LỆNH ĐIỀU KIỆN
+		// if: sử dụng khi có duy nhất 1 trường hợp
+		var number = 5;
+		if (number > 0) {
+			document.write("number > 0");
+		}
+
+		// if ...else
+		// dùng khi bài toán có đúng 2 trường hợp
+		if (number < 3) {
+			document.write("number < 3");
+		} else {
+			document.write("number >= 3");
+		}
+
+		// if.. esleif .. else
+		//dùng khi có > 2 trường hợp xảy ra
+		number = 5;
+		if (number == 0) {
+			document.write("number = 0");
+		} else if(number == 1) {
+			document.write("number = 1");
+		} else if(number == 3) {
+			document.write("number = 3");
+		} else {
+			document.write("Number != 0, 1, 3");
+		}
+
+		// SWITCH CASE
+		//cũng được sử dụng khi so sánh > 2 trường hợp
+		//cú pháp dễ nhìn hơn if elseif
+		//chỉ dùng được với so sánh bằng
+		var number = 2;
+		switch(number) {
+			case 1: 
+				document.write("number = 1");
+				break;
+			case 2: 
+				document.write("number = 2");
+				// break;
+			case 3: 
+				document.write("number = 3");
+				break;
+			default:
+				document.write("number != 1, 2, 3");
+		}
+
+		// VÒNG LẶP
+		//3 vòng lặp chính: for, while, do...while
+		//luôn phải xác định điểm dừng của vòng lặp
+		// để tránh trường hợp vòng lặp vô hạn
+		// FOR - vòng lặp xác định
+		//hiển thị 15 lần nội dung Hello ra màn hình
+		for(var i = 1; i <= 15; i++) {
+			//i = 16
+			//code
+			document.write("Hello " + i);
+			document.write("<br />");
+		}
+
+		// WHILE - vòng lặp ko xác định
+		//hiển thị 15 lần nội dung Hello ra màn hình
+		var j = 1;
+		while(j <= 15) {
+			// j = -1;
+			document.write(j + ",");
+			j++;
+		}
+
+		// DO...WHILE
+		// thực thi câu lệnh trước rồi mới kiểm tra
+		// điều kiện, nên bao giờ cũng thwucj thi câu lệnh ít nhất 1 lần kể cả điều kiện sai
+		var j = 0;
+		do {
+			document.write("Đoạn này được chạy ko quan trọng biểu thức đúng hay sai");
+		} while(j < 0);
+
+		//Từ khóa break - continue 
+		// can thiệp trong vòng lặp, thay đổi lại luồng của vòng lặp
+		// Break;
+		//thoát hẳn vòng lặp, ko quan tâm đến code phía sau nó
+		for(var i = 1; i <=10; i++) {
+			if (i == 4) {
+				break;
+			}
+			document.write(i);
+		}
+		//123
+		//12345
+		//12345678910
+
+		//continue
+		//chỉ bỏ qua lần lặp hiện tại thôi
+		for(var i = 1; i <= 10; i++) {
+			if (i > 3 && i < 6) {
+				continue;
+			}
+			document.write(i);
+			//document.write("ABC");
+		}
+		//
+	}
+
+		
+	</script>
+	<h1>Thực hành</h1>
+	<form action="" method="post" onsubmit="return handleAdd()">
+		Number 1:
+		<input type="text" id="number1" value="" />
+		<br />
+		Number 2:
+		<input type="text" id="number2" value="" />
+		<br />
+		<input type="submit" value="Add" />
+	</form>
+	<h3 id="error" style="color: red"></h3>
+	<h3 id="result" style="color: green"></h3>
+<script type="text/javascript">
+	function handleAdd() {
+		//Cộng 2 số lấy từ input form
+		//lấy giá trị của 2 input theo id
+var obj_number1 = document.getElementById('number1');
+var number1 = obj_number1.value;
+var obj_number2 = document.getElementById('number2');
+var number2 = obj_number2.value;
+console.log(number1);	
+console.log(number2);
+		//Validate form
+		//trường hợp ko nhập gì
+
+		//trường hợp có nhập nhưng nhập text
+
+		//xử lý cộng hai số
+
+		//hiển thị mà ko tải lại trang
+		return false;
+	}
+</script>
+</body>
+</html>
