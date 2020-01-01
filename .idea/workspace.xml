@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7970cfde-d48e-47c7-a91a-8fd279df0028" name="Default Changelist" comment="" />
+    <list default="true" id="7970cfde-d48e-47c7-a91a-8fd279df0028" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +14,11 @@
     <session id="-439267544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,42 +55,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/caovantiep/psd_demo/css/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/caovantiep/bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day04/baitap02.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day04/demo_flexbox.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day04/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/FE-LeThanhNguyet-Day04/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,10 +75,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="44" />
+    <option name="y" value="132" />
     <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -273,18 +241,18 @@
       <workItem from="1576663334246" duration="2564000" />
       <workItem from="1576813998417" duration="4686000" />
       <workItem from="1577256590982" duration="1039000" />
-      <workItem from="1577629022532" duration="5136000" />
+      <workItem from="1577629022532" duration="5337000" />
+      <workItem from="1577854760791" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18815000" />
+    <option name="totallyTimeSpent" value="19669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2700454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,241 +280,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day03/FE-PhungGiaLoc-Day03/dong_que_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2-2/FE-NguyenThanhTrung-Day2-2/bai3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2-2/FE-NguyenThanhTrung-Day2-2/bai4.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2-2/FE-NguyenThanhTrung-Day2-2/bai14.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day03/FE-PhungGiaLoc-Day03/bai3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day03/FE-PhungGiaLoc-Day03/bai8.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn13.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn14.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn17.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai4.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai9.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai17.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B1/HTMLB1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B7/HTMLB7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B8/HTMLB8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B9/HTMLB9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02-03/baivenha3/bai7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/FE09-NguyenThiThuHien-Day03/bai3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/FE09-NguyenThiThuHien-Day03/bai14.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/FE09-NguyenThiThuHien-Day03/bai19.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/Bai4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/baif3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/bài2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/chuabt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/demo3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NongVietHoang-Day3/FE09-NongVietHoang-Day3/Bai8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/bai4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="140" column="60" lean-forward="true" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise04.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise17.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise18.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_LeHongDuc_day03/day03/bai19.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_LeHongDuc_day03/day03/bai20.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_nguyenkimtronganh_day02/FE09_nguyenkimtronganh_day02/bai7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_nguyenkimtronganh_day02/FE09_nguyenkimtronganh_day02/bai8.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE_LeSinhThinh_Day02_CSS/FE_LeSinhThinh_Day02_CSS/baitap01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/b1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/b4.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/b5.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/-b19.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day03/FE-PhungGiaLoc-Day03/dong_que_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2-2/FE-NguyenThanhTrung-Day2-2/bai3.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2-2/FE-NguyenThanhTrung-Day2-2/bai4.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-NguyenThanhTrung-Day2-2/FE-NguyenThanhTrung-Day2-2/bai14.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day03/FE-PhungGiaLoc-Day03/bai3.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-PhungGiaLoc-Day03/FE-PhungGiaLoc-Day03/bai8.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn3.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn13.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn14.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-Day02(par2)/New folder (2)/btvn17.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai1.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai2.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai4.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai3.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai9.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-LEVANTIEN-DAY02/FE09-LEVANTIEN-DAY02/bai17.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B1/HTMLB1.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B7/HTMLB7.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B8/HTMLB8.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenHungThang-D3/FE09-NguyenHungThang-D3/B9/HTMLB9.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-Nguyenkimnamthang-day02-03/baivenha3/bai7.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/FE09-NguyenThiThuHien-Day03/bai3.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/FE09-NguyenThiThuHien-Day03/bai14.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/FE09-NguyenThiThuHien-Day03/bai19.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/Bai4.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/baif3.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/bài2.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/chuabt.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/fe09-Nguyễn Mạnh Đạt/fe09-Nguyễn Mạnh Đạt/demo3.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NongVietHoang-Day3/FE09-NongVietHoang-Day3/Bai8.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-NguyenThiThuHien-Day03/bai4.php" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise01.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise02.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise04.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise17.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09-PhamDangKhoa-Day02-03/FE09-PhamDangKhoa-Day02-03/Exercise18.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_LeHongDuc_day03/day03/bai19.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_LeHongDuc_day03/day03/bai20.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_nguyenkimtronganh_day02/FE09_nguyenkimtronganh_day02/bai7.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE09_nguyenkimtronganh_day02/FE09_nguyenkimtronganh_day02/bai8.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/FE_LeSinhThinh_Day02_CSS/FE_LeSinhThinh_Day02_CSS/baitap01.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/b1.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/b4.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/b5.html" />
+    <entry file="file://$PROJECT_DIR$/Day03_CSS_Continue_Flexbox/Bai_tap_ve_nha/DSNB/phamtrunghoc_j41_day2/ngay 2/-b19.html" />
     <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/caovantiep/psd_demo/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Day04_CSS_Flexbox_Cut_HTML_CSS_From_PSD_File/Bai_tap_ve_nha/DSNB/caovantiep/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
