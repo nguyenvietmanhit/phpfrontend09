@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7970cfde-d48e-47c7-a91a-8fd279df0028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7970cfde-d48e-47c7-a91a-8fd279df0028" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +190,17 @@
               <item name="Day06_Bootstrap_FontAwesome_Practice" type="462c0819:PsiDirectoryNode" />
               <item name="Slide_bai_giang" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day08_Javascript_Basic_Part_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfrontend09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfrontend09" type="462c0819:PsiDirectoryNode" />
+              <item name="Day08_Javascript_Basic_Part_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -242,12 +251,12 @@
       <workItem from="1576813998417" duration="4686000" />
       <workItem from="1577256590982" duration="1039000" />
       <workItem from="1577629022532" duration="5337000" />
-      <workItem from="1577854760791" duration="653000" />
+      <workItem from="1577854760791" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19669000" />
+    <option name="totallyTimeSpent" value="19672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
