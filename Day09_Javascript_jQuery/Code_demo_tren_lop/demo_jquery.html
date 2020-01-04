@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8" />
+	<title>Demo jQuery</title>
+	<!-- Nhúng jQuery vào hệ thống -->
+	<script src="jquery-3.4.1.min.js" 
+	type="text/javascript"></script>
+</head>
+<body>
+	<h1>Demo jQuery</h1>
+	<script type="text/javascript">
+		// phương thức ready tương tự sự kiện onload trong
+		// javascript 
+		//jQuery luôn bắt đầu với ký tự $ hoặc jQuery
+		$(document).ready(function (){
+			//code javascript/jquery
+			// document.write("Hello World");
+
+		//Các module chính của jQuery
+		// 1 - Module Selector
+		//javascript
+		// var p_obj = document.getElementById('p-id');
+		var p_obj = $('#p-id');
+		var p_text = p_obj.html();
+		console.log(p_text);
+		var a_obj = $('.class-a');
+		console.log(a_obj);
+		//lấy theo tên thẻ
+		//lấy theo id, class
+		//lấy theo attribute => type, title ...
+		//lấy theo cấp
+		//hàm find tìm tất cả các selector là con/cháu...
+		// trong thành phần cha
+		var obj_parent = $('#div-parent').find('a');
+		console.log(obj_parent);
+		//hàm children tìm tất các các selector là con gần
+		// nhất trong thành phần
+		var obj_children = $('#div-parent').children('a');
+		console.log(obj_children);
+		//hàm next tìm thành phần ngay kế tiếp so với
+		// selector hiện tại
+		var obj_next = $('#p-next-prev').next();
+		console.log(obj_next);
+		//hàm prev tìm thành phần ngay sau so với
+		// selector hiện tại
+		var obj_prev = $('#p-next-prev').prev();
+		console.log(obj_prev);
+		//lấy ra tất cả đối tượng phía sau và phía trước
+		// đối tương hiện tại
+		var obj_next_all = $('#p-next-prev').nextAll('a');
+		var obj_prev_all = $('#p-next-prev').prevAll('a');
+
+		// 2 - Module Attribute
+		//attr - thao tác get hoặc set thuộc tính của thẻ
+		//lấy giá trị của thuộc tính title
+		var title = $('#a-attr').attr('title');
+		$('#a-attr').attr('id'); //a-attr
+		console.log(title); //Thẻ a
+		//set giá trị cho thuộc tính title
+		$('#a-attr').attr('title', 'Nội dung title mới');
+
+		//xóa thuộc tính của selector
+		$('#a-attr').removeAttr('href');
+		//kiểm tra xem phần tử có class với tên xác định trước hay ko
+		console.log($('#a-attr').hasClass('a-class')); //true
+
+		//xóa class
+		$('#a-attr').removeClass('a-class');
+
+		//get - set nội dung cho phần tử
+		console.log($('#a-attr').html()); 
+		console.log($('#a-attr').text());
+		//set
+		$('#-attr').html('Nội dung mới');
+		//sử dụng jquery lấy ra giá trị của thuộc tính value của input khai báo bên dưới
+		$('input[type=text]').attr('value'); //123
+		//với các input jquery có 1 hàm khác để lấy giá trị của thuộc tính value
+		$('input[type=text]').val(); //123
+		//set giá trị
+		$('input[type=text]').val('abcdef');
+
+		// 3 - jQuery DOM - Document Object Model
+		//xóa phần tử DOM
+		// $('#img-dom').remove();
+		//thêm 1 phần tử vào sau phần tử hiện tại
+		$('#img-dom').after('<h1>Thẻ h1 phía sau</h1>');
+		//thêm 1 phần tử vào trước phần tử hiện tại
+		$('#img-dom').before('<h1>Thẻ h1 phía trước</h1>');
+		//append - prepend
+		 // 4 - Jquery Event
+		 $('#a-event, #img-dom').click(function(event) {
+		 	//ngăn ngừa hành vi mặc định của selector
+		 	//tương đương với return false;
+		 	event.preventDefault();
+		 	// alert("Clicked!");
+		 	console.log("Click!");
+
+		 	// return false;
+		 });
+
+		 // 5 - Jquery Effect
+		 $('#hide').click(function() {
+		 	// $('#h1-affect').hide(5000); //ẩn thẻ h1 trong 5s
+		 	$('#h1-affect').fadeOut(3000);
+		 });
+		 $('#show').click(function() {
+		 	// $('#h1-affect').show(3000); //hiển thị trong 3s
+		 	$('#h1-affect').fadeIn(3000);
+		 });
+
+		 $('#a-toggle').click(function() {
+		 	// $('#h1-affect').toggle(3000);//hiển thị theo cơ chế toggle
+		 	var obj = {
+		 		width: "400px",
+		 		opacity: 0.4,
+		 		marginLeft: "20px",
+		 		fontSize: '40px',
+		 		borderWidth: '10px'
+		 	};
+		 	$('#h1-affect').animate(obj, 3000);
+		 });
+
+		 // 6 - jquery Ajax
+		 var obj_ajax = {
+		 	url: 'get_list.php',
+		 	method: 'post',
+		 	data: {
+		 		name: 'Manh',
+		 		age: 30
+		 	},
+		 	success: function(data) {
+		 		console.log(data);
+		 	}
+		 }
+		 $.ajax(obj_ajax);
+		});
+	</script>
+	<a href="#" id='a-toggle'>
+		click để show/hide thẻ h1
+	</a>
+	<a href="#" id="show">
+		Click để hiện thẻ h1
+	</a>
+	<a href="#" id="hide">
+		Click để ẩn thẻ h1
+	</a>
+	<h1 id="h1-affect">Thẻ h1</h1>
+
+
+
+
+
+
+	<a href="https://google.vn" id="a-event">
+		Demo click jquery
+	</a>
+
+	<img id="img-dom" src="đa" alt="Không có ảnh" 
+	title="Thẻ img" width="50" height="50" />
+
+	<input type="text" value="123" />
+	<input type="numer" value="abc" />
+	<a href="#" title="Thẻ a" id="a-attr" class="a-class">
+		<span style="color: red">
+		Thẻ a demo với hàm attr
+		</span>
+	</a>
+
+
+
+
+
+
+	<a href="#" id="a0">Thẻ a0</a>
+	<p id="p-next-prev">Thẻ p sử dụng hàm next,prev</p>
+	<a href="#">Thẻ a1</a>
+
+
+
+
+
+	<div id="div-parent">
+		<a href="#">Link child 1</a>
+		<a href="#">Link child 2</a>
+		<div>
+			<a href="#">Link cháu</a>
+		</div>
+	</div>
+
+	<a href="#" class="class-a">Link 1</a>
+	<a href="#" class="class-a">Link 2</a>
+	<div class="class-a">Div</div>
+	<p id="p-id" title="Thẻ p">nội dung thẻ p</p>
+
+</body>
+</html>

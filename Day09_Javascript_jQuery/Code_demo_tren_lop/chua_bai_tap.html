@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8" />
+	<title>Chữa bài tập ngày 8 </title>
+</head>
+<body>
+	<form action=""
+	 method="post" onsubmit="return handle12();">
+	 Nhập vào số hàng
+	 <input type="text" id="row" value="" />
+	 <br />
+	 <button type="submit">Hiển thị</button>
+	</form>
+	<h3 style="color: red" id="error"></h3>
+	<h3 style="color: blue" id="result"></h3>
+	<script type="text/javascript">
+		function handle12() {
+			var error = '';
+			var result = '';
+			var obj_row = document.getElementById('row');
+			var row = obj_row.value;
+			//validate nếu như nhập không phải số thì báo lỗi
+			if (isNaN(row)) {
+				error = "Cần nhập số";
+			} else {
+				//xử lý hiển thị ra kết quả
+				//row = 5
+				for(var i = 1; i <= row; i++) {
+					
+					for(var j = 1; j <= i; j++) {
+						result += "* ";
+					}
+
+					result += "<br />";
+				}
+			}
+			//hiển thị kết quả
+			document.getElementById('error').innerHTML = error;
+			document.getElementById('result').innerHTML = result;
+			//ngăn ngừa tải lại trang khi submit form
+			return false;
+		}
+	</script>
+</body>
+</html>
