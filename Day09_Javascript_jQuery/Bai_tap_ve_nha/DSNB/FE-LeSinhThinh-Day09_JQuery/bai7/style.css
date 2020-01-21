@@ -1,0 +1,21 @@
+.menu-content li {
+  list-style: none;
+}
+.fa {
+  margin-right: 20px;
+}
+.nav-link {
+  background-color: cadetblue;
+  width: 15%;
+}
+.brand {
+  padding-left: 70px;
+}
+.nav-side-menu {
+  background-color: chartreuse;
+  /* width: 40%; */
+  margin: auto;
+}
+.fa-angle-down {
+  padding-left: 16px;
+}

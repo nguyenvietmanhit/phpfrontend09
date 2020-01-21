@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bai 1</title>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Chu Vi dien tich hinh chu nhat</h2>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <p id="error"></p>
+          </div>
+          <div class="col-md-12">
+            <form action="#" method="get">
+              <div class="form-group">
+                <label for="width">Nhap vao chieu dai(don vi:met)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Chieu dai"
+                  id="width"
+                />
+              </div>
+              <div class="form-group">
+                <label for="height">Nhap vao chieu rong(don vi:met)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Chieu rong"
+                  id="height"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Tinh chu vi va dien tich
+              </button>
+            </form>
+          </div>
+          <div class="col-md-12">
+            <p id="dt"></p>
+            <p id="cv"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function dientich(a, b) {
+        return a * b;
+      }
+      function chuvi(a, b) {
+        return (a + b) * 2.0;
+      }
+      $(document).ready(function() {
+        $("form").submit(function() {
+          var error = "";
+          var dt = "";
+          var cv = "";
+
+          var a = $("#width").val();
+          var b = $("#height").val();
+
+          if (a < b) {
+            error = "Chieu dai phai lon hon chieu rong!";
+            $("#dt").hide();
+            $("#cv").hide();
+          } else if (a < 0 || b < 0) {
+            error = "a va b phai la so duong!";
+            $("#dt").hide();
+            $("#cv").hide();
+          } else if (a == "" || b == "") {
+            error = "Khong duoc de trong!";
+            $("#dt").hide();
+            $("#cv").hide();
+          } else if (isNaN(a) || isNaN(b)) {
+            error = "Phai nhap la so!";
+            $("#dt").hide();
+            $("#cv").hide();
+          } else {
+            $("#error").hide();
+            a = parseFloat(a);
+            b = parseFloat(b);
+            dt = "Dien tich: " + dientich(a, b) + " m<sup>2</sup>";
+            cv = "Chu Vi: " + chuvi(a, b) + " m";
+            $("#dt")
+              .css("color", "green")
+              .html(dt)
+              .show();
+            $("#cv")
+              .css("color", "green")
+              .html(cv)
+              .show();
+          }
+          $("#error").css("color", "red");
+          $("#error").html(error);
+
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>

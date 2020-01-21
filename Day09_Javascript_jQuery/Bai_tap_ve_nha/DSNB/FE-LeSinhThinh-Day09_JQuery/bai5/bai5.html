@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bai 4</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>So chan va so le</h2>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <p id="error"></p>
+          </div>
+          <div class="col-md-12">
+            <form action="#" method="get">
+              <div class="form-group">
+                <label for="number">Nhap vao gioi han so: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nhap vao gioi han so"
+                  id="number"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Ket Qua
+              </button>
+            </form>
+          </div>
+          <div class="col-md-12">
+            <p id="SoChan"></p>
+            <p id="SoLe"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("form").submit(function() {
+          var number = $("#number").val();
+          var error = "";
+          var soChan = "";
+          var soLe = "";
+          if (number == "") {
+            error = "Khong duoc de trong!";
+            $("#SoChan").hide();
+            $("#SoLe").hide();
+          } else if (number < 0) {
+            error = "So am kia ";
+            $("#SoChan").hide();
+            $("#SoLe").hide();
+          } else if (number == 0) {
+            error = "So phai lon hon 0.";
+            $("#SoChan").hide();
+            $("#SoLe").hide();
+          } else if (isNaN(number) == true) {
+            error = "Bat buoc phai la so! ";
+            $("#SoChan").hide();
+            $("#SoLe").hide();
+          } else {
+            number = parseInt(number);
+            soChan += "Cac so chan 1-" + number + " la: ";
+            soLe += "Cac so le 1-" + number + " la: ";
+            for (var k = 1; k <= number; k++) {
+              if (k % 2 == 0) {
+                soChan += k + ",";
+              } else {
+                soLe += k + ",";
+              }
+            }
+            soChan = soChan.substring(0, soChan.length - 1);
+            soLe = soLe.substring(0, soLe.length - 1);
+            // $("#error").hide();
+          }
+          $("#SoChan")
+            .html(soChan)
+            .css("color", "green")
+            .show();
+          $("#SoLe")
+            .html(soLe)
+            .css("color", "green")
+            .show();
+          $("#error")
+            .html(error)
+            .css("color", "red");
+
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>

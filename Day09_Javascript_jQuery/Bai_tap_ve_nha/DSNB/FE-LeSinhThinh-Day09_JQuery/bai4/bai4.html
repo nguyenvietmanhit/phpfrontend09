@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bai 4</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>So nguyen to</h2>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <p id="error"></p>
+          </div>
+          <div class="col-md-12">
+            <form action="#" method="get">
+              <div class="form-group">
+                <label for="width">Nhap vao so: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Chieu dai"
+                  id="width"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Tim so nguyen to
+              </button>
+            </form>
+          </div>
+          <div class="col-md-12">
+            <p id="soNT"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function checkNguyenTo(x) {
+        var check = true;
+        if (x < 2) {
+          return false;
+        }
+        for (var i = 2; i <= Math.pow(x); i++) {
+          if (x % i == 0) {
+            check = false;
+            break;
+          }
+        }
+
+        return check;
+      }
+
+      $(document).ready(function() {
+        $("form").submit(function() {
+          var number = $("#width").val();
+          var error = "";
+          var soNT = "";
+          if (number == "") {
+            error = "Khong duoc de trong!";
+            $("#soNT").hide();
+          } else if (number <= 0) {
+            error = "So am kia ";
+            $("#soNT").hide();
+          } else if (isNaN(number) == true) {
+            error = "Bat buoc phai la so! ";
+            $("#soNT").hide();
+          } else {
+            // number = parseInt(number);
+            soNT += "Cac so nguyen to " + number + " la: ";
+            for (var k = 1; k <= number; k++) {
+              if (checkNguyenTo(k) == true) {
+                soNT += k + ", ";
+              }
+            }
+            soNT = soNT.substring(0, soNT.length - 1);
+
+            $("#error").hide();
+          }
+          $("#soNT")
+            .html(soNT)
+            .css("color", "green")
+            .show();
+          $("#error")
+            .html(error)
+            .css("color", "red");
+
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>
