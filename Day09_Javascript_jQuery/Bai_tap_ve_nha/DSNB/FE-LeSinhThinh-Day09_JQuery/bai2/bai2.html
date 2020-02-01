@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bai 2</title>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Chu Vi dien tich hinh vuong</h2>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <p id="error"></p>
+          </div>
+          <div class="col-md-12">
+            <form action="#" method="get">
+              <div class="form-group">
+                <label for="width">Nhap vao chieu dai(don vi:met)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Chieu dai"
+                  id="width"
+                />
+              </div>
+              <!-- <div class="form-group">
+                <label for="height">Nhap vao chieu rong(don vi:met)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Chieu rong"
+                  id="height"
+                  />
+              </div> -->
+              <button type="submit" class="btn btn-primary">
+                Tinh chu vi va dien tich hinh vuuong
+              </button>
+            </form>
+          </div>
+          <div class="col-md-12">
+            <p id="dt"></p>
+            <p id="cv"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function dientich(a) {
+        return a * a;
+      }
+      function chuvi(a) {
+        return 4 * a;
+      }
+      $(document).ready(function() {
+        $("form").submit(function() {
+          var a = $("#width").val();
+          var error = "";
+          var dt = "";
+          var cv = "";
+          if (a == "") {
+            error = "Khong duoc de trong!";
+            $("#dt").hide();
+            $("#cv").hide();
+          } else if (a <= 0) {
+            error = "So am kia ";
+            $("#dt").hide();
+            $("#cv").hide();
+          } else if (isNaN(a) == true) {
+            error = "Bat buoc phai la so! ";
+            $("#dt").hide();
+            $("#cv").hide();
+          } else {
+            a = parseFloat(a);
+
+            dt = "Dien tich: " + dientich(a) + " m<sup>2</sup>";
+            cv = "Dien tich: " + chuvi(a) + " m";
+            $("#error").hide();
+            $("#dt")
+              .css("color", "green")
+              .html(dt)
+              .show();
+            $("#cv")
+              .css("color", "green")
+              .html(cv)
+              .show();
+          }
+          $("#error")
+            .html(error)
+            .css("color", "red");
+        });
+      });
+    </script>
+  </body>
+</html>

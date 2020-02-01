@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bai 4</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="wraper-content">
+        <div class="banner">
+          <div class="container">
+            <h4>Fill the Form &amp; Make a Booking</h4>
+            <img src="bai6.jpg" alt="" />
+          </div>
+          <div class="container">
+            <form action="#" method="GET">
+              <div class="row">
+                <div class="col-md-6">
+                  <fieldset>
+                    <legend class="color-common">Your email address</legend>
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="email"
+                        id="email"
+                        placeholder="e.g abc@gmail.com"
+                      />
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <legend class="color-common">Name</legend>
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Your name"
+                      />
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <legend class="color-common">Telephone Number</legend>
+                    <div class="form-group">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="phone"
+                        id="phone"
+                        placeholder="+374..."
+                      />
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <legend>Notes</legend>
+                    <div>
+                      <textarea
+                        class="form-control"
+                        name="notes"
+                        id="notes"
+                        rows="5"
+                        placeholder="Some special requests?"
+                      ></textarea>
+                    </div>
+                  </fieldset>
+                  <div class="form-group">
+                    <span class="color-comon">No. of guests</span>
+                    <input
+                      type="text"
+                      name="no."
+                      id="no"
+                      value="1"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12 leave">
+                  <button type="submit" class="btn btn-danger"><span style="font-size: 24px;font-weight:bold;">RESERVE</span><span class="yourseaf">your seat(s)</span></button>
+                  <p id="error"></p>
+                  <p id="result"></p>
+                </div>
+              </div> 
+            </form>
+          </div>
+        </div>
+        <div class="info">
+          For further information call<br/>
+          <b>+374 642 204 20<b>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('form').submit(function(){
+          var email= $('#email').val();
+          var name = $('#name').val();
+          var phone = $('#phone').val();
+          var no = $('#no').val();
+          var notes = $('#notes').val();
+          var error = '';
+          var result = '';
+
+          if(email==''||name==''||phone==''||no==''||notes==''){
+            alert('Khong duoc de trong ');
+          }else if(isNaN(no)||isNaN(phone)) {
+            error = 'Loi nhap chu ';
+            window.alert(error);
+          }else {
+            phone=parseInt(phone);
+            no = parseInt(no);
+            result = 'email : '+email+'\n'+
+            'name : '+name+'\n'+'phone : +374 '+phone+'\n'+'Notes: '+notes+'\n'+'No : '+no+'\n';
+            window.alert(result);
+          }
+          
+         $("#result").hide();
+          $("#error")
+            .html(error)
+            .css("color", "red")
+            .hide();
+            return false;
+        });
+      });
+
+    </script>
+  </body>
+</html>

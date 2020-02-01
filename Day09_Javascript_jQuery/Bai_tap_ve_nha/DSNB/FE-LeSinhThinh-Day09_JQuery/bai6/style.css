@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.wraper-content {
+  background-color: blue;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+
+.banner {
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 60px;
+  margin: 50px;
+}
+h4 {
+  padding-left: 35px;
+}
+img {
+  width: 100%;
+}
+.leave {
+  position: absolute;
+  bottom: -53px;
+  left: 10px;
+}
+.info {
+  text-align: center;
+  margin: 50px;
+}
+.btn-danger {
+  display: flex;
+  margin: auto;
+  padding: 20px 50px;
+  clear: both;
+}
+button > .yourseaf {
+  padding: 5px 10px;
+}
