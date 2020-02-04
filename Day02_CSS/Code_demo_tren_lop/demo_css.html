@@ -5,79 +5,18 @@
     <title>Demo CSS</title>
 
     <style type="text/css">
-        a {
-            color: red;
+        #personal + a {
+            background: blue;
         }
 
-        /*SELECTOR TRONG CSS*/
-        /*1 - SELECTOR THEO THẺ HTML*/
-        p {
-            color: yellow;
+        #personal > a {
+            background: red;
         }
 
-        /*2 - SELECTOR THEO THUỘC TÍNH ID HOẶC CLASS*/
-        /*css cho id với ký tự # ở đầu*/
-        #p-id {
-            background-color: red;
+        #personal ~ a {
+            background: yellow;
         }
 
-        /*css cho class với ký tự . ở đầu*/
-        .p-class {
-            background-color: green;
-        }
-
-        .class2 {
-            color: pink;
-        }
-
-        /*3 Selector theo cấp */
-        #div-id a {
-            font-size: 30px;
-        }
-
-        #div-id > a {
-            font-size: 30px;
-        }
-
-        #div-id > .div-class > a {
-            font-size: 5px;
-        }
-
-        /*4 - Selector theo thuộc tính của phần tử HMTL*/
-        input[type=password] {
-            background-color: red;
-        }
-
-        /*đỏi màu cho thẻ a đang có href là abc.com sang màu đỏ*/
-        a[href="abc.com"] {
-            color: yellow;
-        }
-
-        /*5 - Selector theo trạng thái phần tử HTML*/
-        #p-hover:hover {
-            color: red;
-        }
-
-        #div-child p:first-child {
-            color: blue;
-        }
-
-        #div-child p:last-child {
-            color: pink;
-        }
-
-        #div-child p:nth-child(3) {
-            color: red;
-        }
-
-        #a-before-after:before {
-            content: 'Nội dung chèn vào trước thẻ a ';
-            /*display: block;*/
-        }
-
-        #a-before-after:after {
-            content: 'Nội dung chèn vào sau thẻ a';
-        }
     </style>
     <!-- Cách nhúng code CSS -->
     <!-- 1 - Nhúng trực tiếp trong thẻ HTML sử dụng thuộc tính style -->
@@ -89,244 +28,15 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<!-- Các thuộc tính CSS căn bản -->
-<style type="text/css">
-    /*1 - CSS Màu nền - Background*/
-    #p-background {
-        position: absolute;
-        height: 200px;
-        /* background-color: black; */
-        /*background-color: #FFEB3B;*/
-        /*background-image: url(images/img.png);
-        background-repeat: no-repeat;
-        background-position: center;*/
-        /*cú pháp viết tắt*/
-        background: black url(images/img.png) no-repeat center;
-    }
-
-    /*2 - CSS Font chữ*/
-    #a-font {
-        font-family: Arial;
-        font-style: italic;
-        font-weight: bold;
-        font-size: 30px;
-    }
-
-    /*3 - CSS Text*/
-    #span-text {
-        color: #196bac;
-        display: block;
-        text-align: center;
-        text-decoration: underline;
-        text-transform: uppercase;
-        text-shadow: 0px 3px 11px red;
-        line-height: 30px;
-    }
-
-    /*4 - CSS Border*/
-    #h-border {
-        /*border-style: solid;
-        border-color: red;
-        border-width: 2px;*/
-        border-radius: 10px;
-        /*viết gộp*/
-        border: 2px solid red;
-    }
-
-    /*5 - CSS Margin*/
-    #p-margin-1 {
-        background: red;
-    }
-
-    #p-margin-2 {
-        background: blue;
-        /*margin-top: 40px;
-        margin-bottom: 50px;
-        margin-left: 40px;
-        margin-right: 80px;*/
-        /*viết gộp*/
-        /*trên - phải - dưới - trái theo chiều kim đồng hồ*/
-        /*margin: 40px 80px 50px 40px;*/
-        /*trên - dưới và trái-phải*/
-        /*margin: 30px 50px;*/
-        margin: 10px auto;
-    }
-
-    /*6 - CSS Padding*/
-
-    #h1-padding {
-        background: yellow;
-        padding-top: 20px;
-        padding-bottom: 30px;
-        padding-left: 10px;
-        padding-right: 40px;
-        /*cú pháp viết gộp giống hệt margin*/
-    }
-
-    /*7 - Width - height*/
-    #width-height {
-        background: red;
-        color: #fff;
-        background: red;
-        color: #fff;
-        /* width: 200px; */
-        /* height: 100px; */
-        min-width: 200px;
-        max-width: 400px;
-        /* min-height: 200px; */
-        max-height: 200px;
-    }
-
-    /*8 - Position*/
-    #div-position {
-        width: 100px;
-        height: 100px;
-        background: orange;
-        position: relative;
-        top: 20px;
-        left: 60px;
-    }
-
-    #div-child {
-        background: blue;
-        width: 50px;
-        height: 50px;
-        /*position: fixed;*/
-    }
-
-    /*9 - Float*/
-    #float-1 {
-        background: blue;
-        float: left;
-        width: 50%;
-        padding: 50px 0;
-    }
-
-    #float-2 {
-        background: yellow;
-        float: left;
-        width: 50%;
-        padding: 50px 0;
-    }
-
-    #span-id {
-        background: #000;
-        display: block;
-        color: #fff;
-        font-size: 20px;
-    }
-</style>
-<div class="row">
-    <div id="float-1">
-        Float 1
-    </div>
-    <div id="float-2">
-        Float 2
-    </div>
+<a href="#">Blueaaaaaaa</a>
+<div id="personal">
+    <a href="#">Red</a>
+    <a href="#">Red 2</a>
 </div>
-<span id="span-id">
-			Nội dung trong thẻ span
-		</span>
+<a href="#">Blue</a>
+<a href="#">Blu2</a>
+<a href="#">Blu3</a>
 
-<div id="div-position">
-    <p id="p-child">Thẻ p bên trong div position</p>
-    <div id="div-child">
-        Thẻ div con
-    </div>
-</div>
-<div id="width-height">
-    Div css width height
-</div>
-<h1 id="h1-padding">
-    Thẻ h1 với css padding
-</h1>
-<p id="p-margin-1">
-    Thẻ p margin 1
-</p>
-<p id="p-margin-2">
-    Thẻ p margin 2
-</p>
-
-<h5 id="h-border">
-    Thẻ h5 sử dụng css border
-</h5>
-<span id="span-text">
-			Thẻ span với css text
-		</span>
-<a id="a-font">
-    Thẻ a với css font
-</a>
-<p id="p-background">
-    Thẻ p với css background
-</p>
-
-<h1 id="h1-id">
-    Thẻ h1 sử dụng css từ file style.css
-</h1>
-<p style="color: red">
-    Thẻ p sử dụng inline css
-</p>
-<a id="a-before-after">
-    Thẻ a sử dụng css liên quan đến before after
-</a>
-<!-- theme -->
-<div id="div-child">
-    <p>Thẻ p thứ nhất</p>
-    <p>Thẻ p thứ 2</p>
-    <p>Thẻ p thứ 3</p>
-    <p>Thẻ p thứ 4</p>
-    <p>Thẻ p thứ 5</p>
-</div>
-<p id="p-hover">
-    Thẻ p với selector theo trạng thái hover
-</p>
-
-<a href="abc.com">
-    Thẻ a có href là abc.com
-</a>
-<form>
-    <input type="radio" name="gender"/> Nam
-    <br/>
-    Nhập tên: <input type="text" name="name"/>
-    <br/>
-    Nhập password <input type="password" name="password"/>
-</form>
-<div id="div-id">
-    <a href="#" title="Title a">
-        Thẻ a trong thẻ div đang có id là div-id
-    </a>
-    <div class="div-class">
-        <a href="#" title="">
-            Thẻ a trong div đang có class là div-class
-        </a>
-    </div>
-</div>
-
-<span class="class1 class2 class3">
-			Thẻ span với cú pháp khai báo nhiều class
-		</span>
-<span id="span-id" class="span-class">
-			Thẻ span sử dụng cả thuộc tính id và class
-		</span>
-<p id="p-id">
-    Thẻ p với id là p-id
-</p>
-<p class="p-class">
-    Thẻ p với class là p-class
-</p>
-<span class="p-class">
-			Thẻ span với class là p-class
-		</span>
-
-<p>
-    Nội dung trong thẻ p
-</p>
-<p>
-    Nội dung trong thẻ p2
-</p>
-<a href="#" target="_blank">
-    Nội dung thẻ a
-</a>
 
 </body>
 </html>
